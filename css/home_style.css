@@ -1,0 +1,108 @@
+/*Carousel*/
+#myCarousel .carousel-inner .item img{
+  height: 700px;
+  width: 100%;
+}
+.carousel-control{
+  width: 5%;
+}
+
+/*Speciallity-How are we Different*/
+#speciality h2{
+  font-size: 5em;
+  font-family:  Handlee,cursive;
+}
+#speciality p{
+  font-size: 1.5em;
+}
+.image-speciality{
+  margin: 10px auto;
+  height: 200px;
+  width: 200px;
+}
+
+/*Our Vision*/
+#vision{
+  color: White;
+  background-image: url('../res/bulb_background.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#vision_heading{
+  font-family: "Roboto Slab",serif;
+}
+#vision p{
+  font-size: 2em;
+}
+#vision_para{
+  margin: 50px  auto;
+}
+/*features*/
+#features{
+  background-color: #588ce1;
+  color: White;
+}
+#features_heading{
+  font-family: "Roboto Slab",serif;
+}
+#features_subheading{
+  font-family: Handlee,cursive;
+  margin: 20px auto;
+}
+.features_image{
+  margin: 20px auto;
+  height: 160px;
+  width: 160px;
+}
+.features_pics{
+  padding: 0;
+}
+#features .paragraph{
+  margin-bottom: 50px;
+}
+#features_collage{
+  width: 100%;
+  height: 600px;
+}
+
+/*Competition*/
+.competition_image{
+  height: 400px;
+  width: 100%;
+  margin: 30px auto;
+}
+
+/*Review*/
+#review_heading{
+  font-family: Handlee,cursive;
+  font-size: 4em;
+}
+#review_container{
+  background-color: #ffb838;
+}
+#review{
+  height: 400px;
+  width: 100%;
+}
+#review .carousel-inner .review_image{
+  margin: 20px auto;
+  border: 5px solid White;
+}
+#review .carousel-inner .review_main{
+  font-family: Handlee,cursive;
+  font-size: 2em;
+}
+.btn{
+  margin: 10px auto;
+}
+
+/*Contact*/
+.contact{
+  background-color: #232525;
+  color: White;
+}
+.contact_info{
+  font-size: 3vh;
+}
