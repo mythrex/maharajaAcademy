@@ -40,9 +40,3 @@ html,body{
 .paragraph{
   font-size: 1.5em;
 }
-.revealOnScroll{
-  opacity: 0;
-}
-.visible{
-  opacity: 1;
-}

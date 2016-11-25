@@ -1,12 +1,13 @@
-/*Carousel*/
-#myCarousel .carousel-inner .item img{
-  height: 700px;
-  width: 100%;
+/*Cover*/
+#cover{
+  color: White;
+  background-image: url('../res/gray.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
 }
-.carousel-control{
-  width: 5%;
-}
-
 /*Speciallity-How are we Different*/
 #speciality h2{
   font-size: 5em;
@@ -17,8 +18,8 @@
 }
 .image-speciality{
   margin: 10px auto;
-  height: 200px;
-  width: 200px;
+  height: 256px;
+  width: 256px;
 }
 
 /*Our Vision*/
