@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/home_style.css" type="text/css">
     <link rel="stylesheet" href="css/aos.css" type="text/css">
     <!--Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Handlee|Roboto+Slab:700|Ubuntu:400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Roboto+Slab:700|Ubuntu:400,500|Permanent Marker" rel="stylesheet">
 
   </head>
   <body>
@@ -25,35 +25,47 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a href="#"><div class="brand">
+              <a href="index.html"><div class="brand">
                 <img class="img-responsive"src="res/Website_Navbar_Logo.png" class="navbar-left" alt="Logo"/>
               </div> </a>
             </div>
               <!--NavbarContent-->
-              <div class="collapse navbar-collapse" id="myNavbarContent">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Dashboard</a></li>
-                  <li><a href="#">Achievements</a></li>
-                  <!--DropDown For Class-->
-                  <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <span class="caret"></span></a>
-                      <!--DropDown Menu-->
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Class 11th</a></li>
-                        <li><a href="#">Class 12th</a></li>
-                      </ul>
-                  </li>
-                </ul>
+              <div class="container">
+                <div class="collapse navbar-collapse" id="myNavbarContent">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <!--DropDown For Class-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <span class="caret"></span></a>
+                        <!--DropDown Menu-->
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Class 11th</a></li>
+                          <li><a href="#">Class 12th</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Gallery <span class="glyphicon glyphicon-picture"></span></a></li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
 
           <!--Cover-->
           <div class="container-fluid" id="cover">
-            <h1 class="bigHeading text-center" data-aos="fade-down" data-aos-duration="1000">Maharaja Academy</h1>
+            <div class="cover_text" data-aos="fade-down" data-aos-duration="2000">
+              <h1 class="text-center" id="cover_heading" >Why to MUG-UP?</h1>
+              <h2 class="text-center" >Let's learn and feel the concepts!</h2>
+              <div class="text-center">
+                <a class="btn btn-success btn-lg" id="#cover_button">
+                  Learn More.
+                </a>
+              </div>
+            </div>
           </div>
+
           <!--How are we different-->
           <div class="container-fluid" id="speciality">
             <div class="container">
@@ -90,18 +102,20 @@
 
           <!--Vision-->
           <div class="container-fluid" id="vision">
-            <div class="row">
-              <div class="col-md-4 col-xs-12" id="vision_heading">
-                  <h2 class="bigHeading text-center">Our Vision</h2>
-                </div>
-                <div class="pull-right col-md-4 col-xs-12 text-center" id="vision_para">
-                  <p>
-                    Our vision is to free students from fear of marks.We believe that marks are just a numeric figure.
-                  </p>
-                  <p>
-                    We believe science is  about concepts that helps us understand the beauty of nature. The equation we see in the textbooks are not merely some mathematical stuff but it is the result of incredible smart way of thinking and hardwork of sleepless nights.
-                  </p>
-                </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12" id="vision_heading">
+                    <h2 class="bigHeading text-center">Our Vision</h2>
+                  </div>
+                  <div class="col-xs-12 text-center" id="vision_para">
+                    <p>
+                      Our vision is to free students from fear of marks.We believe that marks are just a numeric figure.
+                    </p>
+                    <p>
+                      We believe science is  about concepts that helps us understand the beauty of nature. The equation we see in the textbooks are not merely some mathematical stuff but it is the result of incredible smart way of thinking and hardwork of sleepless nights.
+                    </p>
+                  </div>
+              </div>
             </div>
           </div>
 
@@ -112,26 +126,31 @@
                 <h2 class="bigHeading text-center" id="features_heading">We are not just an another coaching centre.</h2>
                 <h2 class="mediumHeading text-center" id="features_subheading">The way of teaching and philosophy at Maharaja Academy makes it different from others.</h2>
               </div>
-                <!--Feature 1-->
-                <div class="col-md-3 col-xs-12">
-                  <img class="img-responsive features_image" src="res/Visualisation is always great.png" alt="image" />
-                  <h2 class="text-center">Visualization is always great!</h2>
-                  <p class="paragraph">
-                    Our teachers are not satisfied by normal pen paper based teaching where visualisation is based on imagination.
-                    "WHAT IF YOU SEE YOUR IMAGINATION ?"
-                    Be it Mechanics or Biology ,Wave optics or Wave-motion, concepts are cleared with help of video lectures and various softwares.
-                  </p>
+            </div>
+            <div class="container">
+                <div class="row">
+                  <!--Feature 1-->
+                  <div class="col-md-6 col-xs-12" data-aos="fade-up" style = "color:White; background-color:#31D39A;">
+                    <img class="img-responsive features_image" src="res/Visualisation is always great.png" alt="image" />
+                    <h2 class="text-center">Visualization is always great!</h2>
+                    <p class="paragraph">
+                      Our teachers are not satisfied by normal pen paper based teaching where visualisation is based on imagination.
+                      "WHAT IF YOU SEE YOUR IMAGINATION ?"
+                      Be it Mechanics or Biology ,Wave optics or Wave-motion, concepts are cleared with help of video lectures and various softwares.
+                    </p>
+                  </div>
+                  <!--Feature 2-->
+                  <div class="col-md-6 col-xs-12" data-aos="fade-up" data-aos-delay="200" style="color:DarkCyan;">
+                    <img class="img-responsive features_image "src="res/Crisp Notes.png" alt=image"" />
+                    <h2 class="text-center">Short and Crisp Notes!</h2>
+                    <p class="paragraph">
+                      Notes for every subject are given so that students have something organised to learn at the time of exams.
+                    </p>
+                  </div>
                 </div>
-                <!--Feature 2-->
-                <div class="col-md-3 col-xs-12">
-                  <img class="img-responsive features_image "src="res/Crisp Notes.png" alt=image"" />
-                  <h2 class="text-center">Short and Crisp Notes!</h2>
-                  <p class="paragraph">
-                    Notes for every subject are given so that students have something organised to learn at the time of exams.
-                  </p>
-                </div>
+              <div class="row">
                 <!--Feature 3-->
-                <div class="col-md-3 col-xs-12">
+                <div class="col-md-6 col-xs-12" data-aos="fade-up" style="color:DarkCyan;">
                   <img class="img-responsive features_image" src="res/Learn While You Play.png" alt="image" />
                   <h2 class="text-center">Learn while you play.</h2>
                   <p class="paragraph">
@@ -139,27 +158,14 @@
                   </p>
                 </div>
                 <!--Feature 4-->
-                <div class="col-md-3 col-xs-12">
-                  <img class="img-responsive features_image" src="res/Practicals.png" alt="image" />
+                <div class="col-md-6 col-xs-12" data-aos="fade-up" data-aos-delay="400" style = "color:White; background-color:#31D39A;">
+                  <img class="img-responsive" src="res/Practicals.png" alt="image" style=" margin: 20px auto; width: 90px; height:160px;"/>
                   <h2 class="text-center">Practicals are important too!</h2>
                   <p class="paragraph">
                     We conduct some practical for Class 12th so that they can know what they are learning. Each student gets his or her chance to perform the practical individually.
                   </p>
                 </div>
-                <div class="col-xs-12">
-                  <div class="col-xs-3 features_pics">
-                    <img class="img-responsive" id="features_collage" src="res/gray.jpg" alt="#" />
-                  </div>
-                  <div class="col-xs-3 features_pics">
-                    <img class="img-responsive" id="features_collage" src="res/gray.jpg" alt="#" />
-                  </div>
-                  <div class="col-xs-3 features_pics">
-                    <img class="img-responsive" id="features_collage" src="res/gray.jpg" alt="#" />
-                  </div>
-                  <div class="col-xs-3 features_pics">
-                    <img class="img-responsive" id="features_collage" src="res/gray.jpg" alt="#" />
-                  </div>
-                </div>
+              </div>
             </div>
           </div>
 
@@ -167,118 +173,160 @@
           <div class="container-fluid" id="review_container">
             <h2 class="text-center" id="review_heading">See what people have to say about us!</h2>
             <div class="container">
-              <div class="carousel slide" id="review" data-ride="carousel">
-                <!--Indicators-->
-                <ol class="carousel-indicators">
-                  <li data-target="#review" data-slide-to="0" class="active"></li>
-                  <li data-target="#review" data-slide-to="1"></li>
-                  <li data-target="#review" data-slide-to="2"></li>
-                  <li data-target="#review" data-slide-to="3"></li>
-                </ol>
-                <!--Wrapper For slide-->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <div class="row">
-                      <div class="col-md-4 col-sm-12">
-                        <img class="img-responsive img-circle review_image"src="" alt="" />
-                      </div>
-                      <div class="col-md-8 col-sm-12">
-                        <h2 class="mediumHeading">Amit</h2>
-                        <p class="paragraph review_main">
-                          Well qualified staff and good environment for study.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="row">
-                      <div class="col-md-4 col-sm-12">
-                        <img class="img-responsive img-circle review_image"src="" alt="" />
-                      </div>
-                      <div class="col-md-8 col-sm-12">
-                        <h2 class="mediumHeading">Sudhanshu Sharma</h2>
-                        <p class="paragraph review_main">
-                           I like to study here because here teachers teach dedicately and well.
-                        </p>
+              <div class="row">
+                <div class="carousel slide" id="review" data-ride="carousel">
+                  <!--Indicators-->
+                  <ol class="carousel-indicators">
+                    <li data-target="#review" data-slide-to="0" class="active"></li>
+                    <li data-target="#review" data-slide-to="1"></li>
+                    <li data-target="#review" data-slide-to="2"></li>
+                    <li data-target="#review" data-slide-to="3"></li>
+                  </ol>
+                  <!--Wrapper For slide-->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                          <img class="img-responsive img-circle review_image" src="res/reviews/Amit.png" alt="Amit" />
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                          <h2 class="mediumHeading">Amit</h2>
+                          <p class="paragraph review_main">
+                            Well qualified staff and good environment for study.
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="item">
-                    <div class="row">
-                      <div class="col-md-4 col-sm-12">
-                        <img class="img-responsive img-circle review_image"src="" alt="" />
-                      </div>
-                      <div class="col-md-8 col-sm-12">
-                        <h2 class="mediumHeading">Neeraj Kumar</h2>
-                        <p class="paragraph review_main">
-                          I think it is a very nice academy.Every teachers hears and understands the student very well.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="row">
-                      <div class="col-md-4 col-sm-12">
-                        <img class="img-responsive img-circle review_image" src="" alt="" />
-                      </div>
-                      <div class="col-md-8 col-sm-12">
-                        <h2 class="mediumHeading">Himanshu Sharma</h2>
-                        <p class="paragraph review_main">
-                          I like the way of teaching of this academy and they conduct weakly test in class.
-                        </p>
+                    <div class="item">
+                      <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                          <img class="img-responsive img-circle review_image" src="res/reviews/Sudhanshu.png" alt="Sudhanshu" />
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                          <h2 class="mediumHeading">Sudhanshu Sharma</h2>
+                          <p class="paragraph review_main">
+                             I like to study here because here teachers teach dedicately and well.
+                          </p>
+                        </div>
                       </div>
                     </div>
+                    <div class="item">
+                      <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                          <img class="img-responsive img-circle review_image" src="res/reviews/Neeraj.png" alt="Neeraj" />
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                          <h2 class="mediumHeading">Neeraj Kumar</h2>
+                          <p class="paragraph review_main">
+                            I think it is a very nice academy.Every teachers hears and understands the student very well.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                          <img class="img-responsive img-circle review_image" src="res/reviews/Himanshu.png" alt="Himanshu" />
+                        </div>
+                        <div class="col-md-8 col-sm-12">
+                          <h2 class="mediumHeading">Himanshu Sharma</h2>
+                          <p class="paragraph review_main">
+                            I like the way of teaching of this academy and they conduct weakly test in class.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
                   </div>
-                  </div>
+              </div>
+              <div class="row">
+                <div class="text-center">
+                  <a class="btn btn-success btn-lg" href="https://goo.gl/maps/CiaD2qfYL4p" target="_blank">Take me to full Reviews</a>
                 </div>
+              </div>
             </div>
-            <div class="text-center">
-              <a class="btn btn-primary btn-lg" href="https://goo.gl/maps/CiaD2qfYL4p" target="_blank">Take me to full Reviews</a>
+          </div>
+
+          <!--Get Updates on Mobile-->
+          <div class="container-fluid" style="background-color: #859195; color:White;">
+            <div class="container">
+                <div class="row" >
+                  <div class="col-xs-12">
+                    <h2 class="mediumHeading text-center">Get Updates, assignment on your mobile!</h2>
+                    <p class="paragraph">
+                      We are equipped with latest technology.
+                      Get all your assignments,test notifications, your attendence and fee details directly to your mobile.
+                      Be it extra class or be it A.O.C. Class(well it's our special class) you are notified on your mobile.
+                    </p>
+                  </div>
+              <div class="col-md-6 col-xs-12 mobile_updates">
+                <img class="updatesonmobile_image" src="res/Updates_on_Laptop.png" alt="" data-aos="fade-down"/>
+              </div>
+              <div class="col-md-6 col-xs-12 mobile_updates">
+                <img class="updatesonmobile_image" src="res/Updates_on_Mobile.png" alt="" data-aos="fade-up" data-aos-delay="300" />
+              </div>
             </div>
+          </div>
           </div>
 
           <!--Competition-->
           <div class="container-fluid competition">
-            <div class="container">
+              <hr class="featurette-divider">
               <!--Competition Ready-->
-              <div class="row" data-aos="fade-right" data-aos-duration="600" data-aos-delay="100">
-                <div class="col-md-6 col-xs-12">
-                  <img class="img-responsive competition_image" src="#" alt="" />
-                </div>
-                <div class="col-md-6 col-xs-12">
-                  <h2 class="mediumHeading">Competition Ready!</h2>
-                  <p class="paragraph">
-                    Our teaching and tests are designed keeping JEE and NEET in mind. We not only focus on CBSE but also on Competition.
-                  </p>
-                </div>
-              </div>
-              <!--Hieghest Marks In Region-->
-              <div class="row" data-aos="fade-left" data-aos-duration="600" data-aos-delay="100">
-                <div class="col-md-6 col-xs-12">
-                  <h2 class="mediumHeading">Highest average in each subject</h2>
-                  <p class="paragraph">
-                    We at Maharaja Academy focus on quality not quantity. Taking everybody forward is always a difficult task and that is what we do .
-                  </p>
-                </div>
-                <div class="col-md-6 col-xs-12">
-                  <img class="img-responsive competition_image" src="#" alt="" />
+              <div class="row">
+                <div class="container">
+                  <div class="col-md-6 col-xs-12">
+                    <img class="img-responsive competition_image" src="res/Competition.png" alt="Competition" />
+                  </div>
+                  <div class="col-md-6 col-xs-12">
+                    <h2 class="mediumHeading">Competition Ready!</h2>
+                    <p class="paragraph">
+                      Our teaching and tests are designed keeping JEE and NEET in mind. We not only focus on CBSE but also on Competition.
+                    </p>
+                  </div>
                 </div>
               </div>
+              <hr class="featurette-divider">
+              <!--Heighest Marks In Region-->
+              <div class="row" style="background-color: #31D39A; color: White;">
+                <div class="container">
+                  <div class="col-md-6 col-xs-12">
+                    <h2 class="mediumHeading">Highest average in each subject</h2>
+                    <p class="paragraph">
+                      We at Maharaja Academy focus on quality not quantity. Taking everybody forward is always a difficult task and that is what we do .
+                    </p>
+                    <p class="paragraph">
+                      We recorded highest Average in all subjects:-
+                      <ul class="paragraph">
+                        <li>Chemistry: 85.9</li>
+                        <li>Biology: 86.8</li>
+                        <li>Physics: 80.1</li>
+                        <li>Maths: 80.0</li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div class="col-md-6 col-xs-12">
+                    <img class="img-responsive competition_image" src="res/Progress.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <hr class="featurette-divider">
               <!--Workshops-->
-              <div class="row" data-aos="fade-right" data-aos-duration="600" data-aos-delay="100">
-                <div class="col-md-6 col-xs-12">
-                  <img class="img-responsive competition_image" src="#" alt="" />
+              <div class="row">
+                <div class="container">
+                  <div class="col-md-6 col-xs-12">
+                    <img class="img-responsive competition_image" src="./res/Stressed.png" alt="" />
+                  </div>
+                  <div class="col-md-6 col-xs-12">
+                    <h2 class="mediumHeading">Feeling Stressed? :(</h2>
+                    <p class="paragraph">
+                      We organise various workshops to motivate you and develop your personality.
+                      The workshops are conducted by some very reputed speakers,motivators and mentors.
+                    </p>
+                  </div>
                 </div>
-                <div class="col-md-6 col-xs-12">
-                  <h2 class="mediumHeading">Feeling Low :(</h2>
-                  <p class="paragraph">
-                    We organise various workshops to motivate you and develop your personality.
-                    The workshops are conducted by some very reputed speakers,motivators and mentors.
-                  </p>
-                </div>
-              </div>
             </div>
-          </div>
+        </div>
 
           <!--Contact-->
           <div class="container-fluid contact">
@@ -302,8 +350,8 @@
           <!--Footer-->
           <footer class="footer">
                 <div class="container">
-                  <p class="text-muted">
-                    Made with <span class="glyphicon glyphicon-heart"></span> by mythrex</span>
+                  <p class="text-muted text-center">
+                    &copy Maharaja Academy 2016
                   </p>
                 </div>
           </footer>

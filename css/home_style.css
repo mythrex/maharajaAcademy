@@ -1,17 +1,28 @@
 /*Cover*/
 #cover{
   color: White;
-  background-image: url('../res/gray.jpg');
+  background-image: url('../res/Cover.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
 }
+.cover_text{
+  position: relative;
+  top: 30%;
+
+}
+#cover_heading{
+  font-family: "Permanent Marker",cursive;
+  font-size: 8vh;
+}
+
 /*Speciallity-How are we Different*/
 #speciality h2{
   font-size: 5em;
   font-family:  Handlee,cursive;
+  color: Orange;
 }
 #speciality p{
   font-size: 1.5em;
@@ -25,11 +36,7 @@
 /*Our Vision*/
 #vision{
   color: White;
-  background-image: url('../res/bulb_background.png');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #31D39A;
 }
 #vision_heading{
   font-family: "Roboto Slab",serif;
@@ -42,15 +49,17 @@
 }
 /*features*/
 #features{
-  background-color: #588ce1;
-  color: White;
+  color: Black;
+  background-color: White;
 }
 #features_heading{
   font-family: "Roboto Slab",serif;
+  color: Orange;
 }
 #features_subheading{
   font-family: Handlee,cursive;
   margin: 20px auto;
+  color: Orange;
 }
 .features_image{
   margin: 20px auto;
@@ -71,7 +80,7 @@
 /*Competition*/
 .competition_image{
   height: 400px;
-  width: 100%;
+  width: 420px;
   margin: 30px auto;
 }
 
@@ -81,10 +90,10 @@
   font-size: 4em;
 }
 #review_container{
-  background-color: #ffb838;
+  background-color: #009688;
+  color: White;
 }
 #review{
-  height: 400px;
   width: 100%;
 }
 #review .carousel-inner .review_image{
@@ -98,12 +107,15 @@
 .btn{
   margin: 10px auto;
 }
-
-/*Contact*/
-.contact{
-  background-color: #232525;
-  color: White;
+.review_image{
+  height: 256px;
+  width: 256px;
 }
-.contact_info{
-  font-size: 3vh;
+/*Updates On Mobile*/
+.mobile_updates{
+  padding: 0;
+}
+.updatesonmobile_image{
+  width: 90%;
+  height: 70%;
 }
