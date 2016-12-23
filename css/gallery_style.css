@@ -1,7 +1,10 @@
 .event{
   margin: 20px;
-  color: DarkCyan;
+  color: #31D39A;
 }
 .thumbnail{
   border: 1px solid DarkCyan;
+}
+.page-header{
+  color: #31D39A;
 }

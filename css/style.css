@@ -13,6 +13,10 @@ html,body{
 .navbar-default .brand{
   width: 80%;
 }
+.navbar-default #myNavbarContent .active a{
+  color: White;
+  background-color: #31D39A;
+}
 /*Footer*/
 .footer{
   position: relative;
