@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/dashboard_style.css" type="text/css">
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Ubuntu:400,500" rel="stylesheet">
   </head>
   <body>
 
         <!--NavBAr-->
-        <div class="navbar navbar-default">
+        <div class="navbar navbar-default navbar-fixed-top">
           <div class="container-fluid">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbarContent">
@@ -38,11 +39,23 @@
                     <li><a href="#">Achievements</a></li>
                     <!--DropDown For Class-->
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">11th <span class="caret"></span></a>
                         <!--DropDown Menu-->
                         <ul class="dropdown-menu">
-                          <li><a href="#">Class 11th</a></li>
-                          <li><a href="#">Class 12th</a></li>
+                          <li><a href="#">Physics</a></li>
+                          <li><a href="#">Chemistry</a></li>
+                          <li><a href="#">Mathematics</a></li>
+                          <li><a href="#">Biology</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">12th <span class="caret"></span></a>
+                        <!--DropDown Menu-->
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Physics</a></li>
+                          <li><a href="#">Chemistry</a></li>
+                          <li><a href="#">Mathematics</a></li>
+                          <li><a href="#">Biology</a></li>
                         </ul>
                     </li>
                     <li><a href="gallery.html">Gallery <span class="glyphicon glyphicon-picture"></span></a></li>
@@ -51,49 +64,161 @@
               </div>
             </div>
           </div>
-
-          <div class="container">
-        <div class="row">
-        <h1 class="page-header" style="color: DarkCyan">Dashboard</h1>
-        <!--Class-->
-        <div class="container">
-          <h2>Select Your class!</h2><hr>
-        </div>
-        </div>
-
-          </div>
-          <!--Contact-->
-          <div class="container-fluid contact">
-            <div class="container">
+            <!--Container-->
+            <div class="container-fluid">
               <div class="row">
-                <h2 class="text-center bigHeading">Get in touch</h2>
-                <h3 class="text-center mediumHeading">We'd love to hear from you</h3>
-              </div>
-              <br>
-              <div class="col-md-4 col-xs-12">
-                <iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=maharaja%20academy&key=AIzaSyBFJzv9dbxfjADUJDvloJrMnEIfbgr2xTk" allowfullscreen></iframe>
-              </div>
-              <div class="col-md-8 col-xs-12 contact-details">
-                <a class="contact_info" href="mailto:maharajaacademy2009@gmail.com?Subject=I%20want%20to%20contact%20you" target="_blank"><span class="glyphicon glyphicon-envelope"></span> Email: maharajaacademy2009@gmail.com</a>
-                <h4 class="contact_info"><span class="glyphicon glyphicon-phone"></span> Phone Number: 011-27532100,+919212387515</h4>
-                <h4 class="contact_info"><span class="glyphicon glyphicon-home"></span> Address: Near Main Bus Stop,Pooth Kalan,Delhi-110086(Infront of Bank Of Baroda)</h4>
-            </div>
-            </div>
-          </div>
-
-          <!--Footer-->
-          <footer class="footer">
-                <div class="container">
-                  <p class="text-muted text-center">
-                    &copy Maharaja Academy 2016
-                  </p>
+                <div class="col-md-2 hidden-sm hidden-xs sidebar">
+                  <!--Sidebar-->
+                  <ul class="nav nav-sidebar">
+                    <h2>Download Syllabus</h2>
+                    <h3>Class-11</h3>
+                    <li><a href="#">Physics</a></li>
+                    <li><a href="#">Chemistry</a></li>
+                    <li><a href="#">Mathematics</a></li>
+                    <li><a href="#">Biology</a></li>
+                    <h3>Class-12</h3>
+                    <li><a href="#">Physics</a></li>
+                    <li><a href="#">Chemistry</a></li>
+                    <li><a href="#">Mathematics</a></li>
+                    <li><a href="#">Biology</a></li>
+                  </ul>
+                  </div>
+                  <!--Main Content-->
+                  <div class="col-md-10 col-md-offset-2">
+                    <div class="row" style="margin-top: 55px;">
+                      <h1 class="page-header">Dashboard</h1>
+                    </div>
+                    <!--Select your Subject -11-->
+                    <div class="row">
+                      <h2>11th <small>Select a subject</small></h2>
+                      <!--Subjects-->
+                      <div class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="#">
+                        <img src="#" alt="abc" style="max-height:400px; max-width:400px;" class="img-responsive img-circle"/>
+                        <h4>Physics</h4>
+                      </a>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-xs-12">
+                      <a href="#">
+                        <img src="#" alt="abc" style="max-height:400px; max-width:400px;" class="img-responsive img-circle"/>
+                        <h4>Chemistry</h4>
+                      </a>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="#">
+                          <img src="#" alt="abc" style="max-height:400px; max-width:400px;" class="img-responsive img-circle"/>
+                          <h4>Mathematics</h4>
+                      </a>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="#">
+                          <img src="#" alt="abc" style="max-height:400px; max-width:400px;" class="img-responsive img-circle"/>
+                          <h4>Biology</h4>
+                        </a>
+                      </div>
+                    </div>
+                    <!--Select your Subject -12-->
+                    <div class="row">
+                      <h2>12th <small>Select a subject</small></h2>
+                      <!--Subjects-->
+                      <div class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="#">
+                        <img src="#" alt="abc" style="max-height:400px; max-width:400px;" class="img-responsive img-circle"/>
+                        <h4>Physics</h4>
+                      </a>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-xs-12">
+                      <a href="#">
+                        <img src="#" alt="abc" style="max-height:400px; max-width:400px;" class="img-responsive img-circle"/>
+                        <h4>Chemistry</h4>
+                      </a>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="#">
+                          <img src="#" alt="abc" style="max-height:400px; max-width:400px;" class="img-responsive img-circle"/>
+                          <h4>Mathematics</h4>
+                      </a>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="#">
+                          <img src="#" alt="abc" style="max-height:400px; max-width:400px;" class="img-responsive img-circle"/>
+                          <h4>Biology</h4>
+                        </a>
+                      </div>
+                    </div>
+                    <!--Notification and Upcoming Test-->
+                    <div class="row">
+                      <!--Notification-->
+                      <div class="col-md-6 col-xs-12">
+                        <div class="panel panel-warning">
+                          <div class="panel-heading">
+                            Notifications!
+                          </div>
+                          <div class="panel-body">
+                            Sorry you don't have any new Notifications!
+                          </div>
+                        </div>
+                      </div>
+                      <!--Upcoming Tests-->
+                      <div class="col-md-6 col-xs-12">
+                        <div class="panel panel-success">
+                          <div class="panel-heading">
+                            Upcoming Tests!
+                          </div>
+                          <div class="panel-body">
+                            There are no new Tests.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--NewsFeed-->
+                    <div class="row">
+                      <h2 class="page-header">Newsfeed</h2>
+                      <!--News1-->
+                      <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                          <img src="" alt="" />
+                          <div class="caption">
+                            <h2>News1</h2>
+                            <p>
+                              Details.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--News2-->
+                      <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                          <img src="" alt="" />
+                          <div class="caption">
+                            <h2>News2</h2>
+                            <p>
+                              Details.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--News3-->
+                      <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                          <img src="" alt="" />
+                          <div class="caption">
+                            <h2>News3</h2>
+                            <p>
+                              Details.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-          </footer>
+            </div><!--End tag for container-->
+
           </div>
       </div>
 
       <!--Scripts-->
-      <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.0.js"></script>
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
       <script src="./js/bootstrap.js"></script>
   </body>
