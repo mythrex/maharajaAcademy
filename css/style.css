@@ -68,3 +68,7 @@ html,body{
 .btn-primary:hover{
   background-color: #194435;
 }
+/*PageHeader*/
+.page-header{
+  color: #31D39A;
+}
