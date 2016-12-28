@@ -5,6 +5,10 @@
 .thumbnail{
   border: 1px solid DarkCyan;
 }
+.thumbnail img{
+  max-width: auto;
+  max-height: 350px;
+}
 .page-header{
   color: #31D39A;
 }
