@@ -2,18 +2,28 @@ html,body{
   width: 100%;
   font-family: Ubuntu,sans-serif;
 }
+body{
+  margin-top: 50px;
+}
+a{
+  color: #31D39A;
+}
   /*NavBar*/
-  .navbar-default{
+.navbar-default{
     margin: 0;
+    background-color: White;
   }
 .navbar-default #myNavbarContent li a{
-  font-size: 1.3em;
   font-weight: 500;
 }
 .navbar-default .brand{
   width: 80%;
 }
 .navbar-default #myNavbarContent .active a{
+  color: #3BA09A;
+  background-color: White;
+}
+.navbar-default #myNavbarContent a:hover{
   color: White;
   background-color: #31D39A;
 }
@@ -44,7 +54,7 @@ html,body{
 }
 /*Contact*/
 .contact{
-  background-color: #023a34;
+  background-color: #0D1F1D;
   color: White;
 }
 .contact_info{
@@ -55,11 +65,12 @@ html,body{
   border-radius: 24px;
 }
 .btn-success{
-  border: 2px solid #2bb383;
-  background-color: #2bb383;
+  border: 2px solid #31D39A;
+  background-color: #31D39A;
 }
 .btn-success:hover{
-  background-color: #2c7b60;
+  background-color: #31D39A;
+  border: 2px solid #31D39A;
 }
 .btn-primary{
   border: 2px solid DarkCyan;
@@ -70,5 +81,9 @@ html,body{
 }
 /*PageHeader*/
 .page-header{
-  color: #31D39A;
+  color: #3BA09A;
+}
+/*text-muted*/
+.text-muted{
+  color: #859195;
 }

@@ -1,19 +1,17 @@
 .sidebar{
   position: fixed;
-  top: 51px;
+  top: 0px;
   left: 0;
   bottom: 0;
   display: block;
-  padding: 5px;
+  padding: 10px;
+  padding-top: 51px;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: #F5F5F5;
+  background-color: #FFFFFF;
   font-size: 1.2em;
   }
 .nav-sidebar a{
   color: DarkCyan;
-}
-/*page-Header*/
-.page-header{
-  color: #31D39A;
+  margin: 5px;
 }

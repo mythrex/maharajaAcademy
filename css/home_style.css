@@ -22,7 +22,7 @@
 #speciality h2{
   font-size: 5em;
   font-family:  Handlee,cursive;
-  color: Orange;
+  color: #FFA11D;
 }
 #speciality p{
   font-size: 1.5em;
@@ -54,12 +54,12 @@
 }
 #features_heading{
   font-family: "Roboto Slab",serif;
-  color: Orange;
+  color: #FFA11D;
 }
 #features_subheading{
   font-family: Handlee,cursive;
   margin: 20px auto;
-  color: Orange;
+  color: #FFA11D;
 }
 .features_image{
   margin: 20px auto;
