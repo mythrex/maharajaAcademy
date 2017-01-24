@@ -20,7 +20,7 @@ a{
   width: 80%;
 }
 .navbar-default #myNavbarContent .active a{
-  color: #3BA09A;
+  color: #0EA68A;
   background-color: White;
 }
 .navbar-default #myNavbarContent a:hover{
@@ -69,8 +69,8 @@ a{
   background-color: #31D39A;
 }
 .btn-success:hover{
-  background-color: #31D39A;
-  border: 2px solid #31D39A;
+  background-color: #0EA68A;
+  border: 2px solid #0EA68A;
 }
 .btn-primary{
   border: 2px solid DarkCyan;
@@ -81,7 +81,7 @@ a{
 }
 /*PageHeader*/
 .page-header{
-  color: #3BA09A;
+  color: #0EA68A;
 }
 /*text-muted*/
 .text-muted{
