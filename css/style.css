@@ -61,9 +61,6 @@ a{
   font-size: 3vh;
 }
 /*Button*/
-.btn{
-  border-radius: 24px;
-}
 .btn-success{
   border: 2px solid #31D39A;
   background-color: #31D39A;

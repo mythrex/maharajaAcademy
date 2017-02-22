@@ -10,6 +10,8 @@
   overflow-y: auto;
   background-color: #FFFFFF;
   font-size: 1.2em;
+  border-right: 2px solid #ece4e4;
+  margin-right: 2px;  
   }
 .nav-sidebar a{
   color: DarkCyan;
