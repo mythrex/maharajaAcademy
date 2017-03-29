@@ -5,9 +5,6 @@ html,body{
 body{
   margin-top: 50px;
 }
-a{
-  color: #31D39A;
-}
   /*NavBar*/
 .navbar-default{
     margin: 0;
@@ -68,13 +65,6 @@ a{
 .btn-success:hover{
   background-color: #0EA68A;
   border: 2px solid #0EA68A;
-}
-.btn-primary{
-  border: 2px solid DarkCyan;
-  background-color: Darkcyan;
-}
-.btn-primary:hover{
-  background-color: #194435;
 }
 /*PageHeader*/
 .page-header{
