@@ -3,4 +3,6 @@
 }
 .profile-image{
 	border: 2px solid #31D39A;
+	max-height: 200px;
+	max-width: 200px; 
 }
