@@ -1,28 +1,15 @@
 html,body{
   width: 100%;
-  font-family: Ubuntu,sans-serif;
+  font-family: Roboto,sans-serif;
 }
 body{
   margin-top: 50px;
+  background-color: #f6f6f6;
 }
   /*NavBar*/
 .navbar-default{
     margin: 0;
     background-color: White;
-  }
-.navbar-default #myNavbarContent li a{
-  font-weight: 500;
-}
-.navbar-default .brand{
-  width: 80%;
-}
-.navbar-default #myNavbarContent .active a{
-  color: #0EA68A;
-  background-color: White;
-}
-.navbar-default #myNavbarContent a:hover{
-  color: White;
-  background-color: #31D39A;
 }
 /*Footer*/
 .footer{
@@ -34,6 +21,11 @@ body{
 }
 .footer p{
   padding: 10px;
+}
+/*.navbar-default*/
+.navbar, .navbar.navbar-default{
+    background-color: White;
+    color: Black;
 }
 /*Big Heading*/
 .bigHeading{

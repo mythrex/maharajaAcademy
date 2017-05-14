@@ -14,14 +14,14 @@
 
 }
 #cover_heading{
-  font-family: "Permanent Marker",cursive;
+  font-family: Roboto,sans-serif;
   font-size: 8vh;
 }
 
 /*Speciallity-How are we Different*/
 #speciality h2{
   font-size: 5em;
-  font-family:  Handlee,cursive;
+  font-family:  Roboto,sans-serif;;
   color: #FFA11D;
 }
 #speciality p{
