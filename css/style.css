@@ -9,6 +9,9 @@ h1,h2,h3,h4,h5,h6{
 small{
   color: #757575;
 }
+.textcenter{
+  margin: auto;
+}
 .dark-primary-color    { background: #00796B; }
 .default-primary-color { background: #009688; }
 .light-primary-color   { background: #B2DFDB; }
@@ -27,7 +30,7 @@ small{
   font-weight: 500;
   color: #757575;
 }
-.navbar-default .brand{
+.navbar .brand{
   width: 80%;
 }
 .navbar #navbarSupportedContent .active a{
@@ -35,6 +38,15 @@ small{
 }
 .navbar #navbarSupportedContent a:hover{
   color: #009688;
+}
+.navbar #navbarSupportedContent .btn-outline{
+  border: 1px solid #5cb85c;
+  color: #5cb85c;
+}
+.navbar #navbarSupportedContent .btn-outline:hover{
+  border: 1px solid #5cb85c;
+  color: White;
+  background-color: #5cb85c;
 }
 .main-container{
   clear: both;
@@ -47,6 +59,7 @@ small{
   line-height: 1.8;
   border-radius: 10px;
 }
+
 a{
   color: #5cb85c;
 }
@@ -75,9 +88,13 @@ a:hover{
 footer{
   margin-top: 20px;
   padding: 20px;
-  background-color: #00796B;
+  background-color: #01312c;
   color: White;
 }
 footer #copyright{
   margin: 10px auto;
+}
+footer h1,h2{
+  margin: auto;
+  color: White;
 }

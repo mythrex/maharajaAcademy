@@ -1,11 +1,13 @@
-.event{
-  margin: 20px;
-  color: #31D39A;
+Body{
+  background-color: #f1f1f1;
 }
-.thumbnail{
-  border: 1px solid DarkCyan;
+#carouselAcheivements img{
+  min-height: 300px;
+  min-width: 300px;
+  max-width: 900px;
+  max-height: 900px;
 }
-.thumbnail img{
-  max-width: auto;
-  max-height: 350px;
+
+.card .card-text{
+  color: #757575;
 }

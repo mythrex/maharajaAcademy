@@ -1,215 +1,178 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Maharaja Academy-Gallery</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/gallery_style.css" type="text/css">
-    <!--Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Ubuntu:400,500" rel="stylesheet">
-  </head>
+  <title>Maharaja Academy-Gallery</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/gallery_style.css" type="text/css">
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:400,500" rel="stylesheet">
+</head>
   <body>
 
     <!--NavBAr-->
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbarContent">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="index.html"><div class="brand">
-            <img class="img-responsive"src="res/Website_Navbar_Logo.svg" class="navbar-left" alt="Logo"/>
-          </div> </a>
-        </div>
-          <!--NavbarContent-->
-          <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="myNavbarContent">
-              <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="dashboard.html">Dashboard</a></li>
-                <!--DropDown For Class-->
-                <!--DropDown For Class-->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">11th <span class="caret"></span></a>
-                    <!--DropDown Menu-->
-                    <ul class="dropdown-menu">
-                      <li><a href="11_physics.html">Physics</a></li>
-                      <li><a href="11_chemistry.html">Chemistry</a></li>
-                      <li><a href="11_math.html">Mathematics</a></li>
-                      <li><a href="11_biology.html">Biology</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">12th <span class="caret"></span></a>
-                    <!--DropDown Menu-->
-                    <ul class="dropdown-menu">
-                      <li><a href="12_physics.html">Physics</a></li>
-                      <li><a href="12_chemistry.html">Chemistry</a></li>
-                      <li><a href="12_math.html">Mathematics</a></li>
-                      <li><a href="12_biology.html">Biology</a></li>
-                    </ul>
-                </li>
-                <li class="active"><a href="gallery.html">Gallery <span class="glyphicon glyphicon-picture"></span></a></li>
-                <li><a href="http://app.proctur.com" class="pull-right navbar-right" target="_blank">Log-in/Sign-up</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+    <nav class="navbar navbar-toggleable-md fixed-top">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">X</span>
+      </button>
+      <a href="index.html"><div class="brand">
+        <img class="img-responsive"src="res/Website_Navbar_Logo.svg" class="navbar-left" alt="Logo"/>
+      </div> </a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery <span class="glyphicon glyphicon-picture"></span></a></li>
+        </ul>
+        <!--Right-->
+        <ul class="nav navbar-nav navbar-right">
+          <!--DropDown For Class-->
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">11th <span class="caret"></span></a>
+            <!--DropDown Menu-->
+            <ul class="dropdown-menu">
+              <li class="nav-item"><a class="nav-link" href="11_physics.html">Physics</a></li>
+              <li class="nav-item"><a class="nav-link" href="11_chemistry.html">Chemistry</a></li>
+              <li class="nav-item"><a class="nav-link" href="11_math.html">Mathematics</a></li>
+              <li class="nav-item"><a class="nav-link" href="11_biology.html">Biology</a></li>
+            </ul>
+          </li>
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">12th <span class="caret"></span></a>
+            <!--DropDown Menu-->
+            <ul class="dropdown-menu">
+              <li class="nav-item"><a class="nav-link" href="12_physics.html">Physics</a></li>
+              <li class="nav-item"><a class="nav-link" href="12_chemistry.html">Chemistry</a></li>
+              <li class="nav-item"><a class="nav-link" href="12_math.html">Mathematics</a></li>
+              <li class="nav-item"><a class="nav-link" href="12_biology.html">Biology</a></li>
+            </ul>
+          </li>
+          <li><a class="btn btn-outline" href="http://app.proctur.com" class="navbar-right" target="_blank">Log-in/Sign-up</a></li>
+        </ul>
       </div>
+    </nav>
 
           <!--Gallery Carousel-->
-          <div class="container">
+          <div class="main-container container">
+            <h2 class="page-header">Achievements</h2>
             <div class="row">
-              <h2 class="page-header">Achievements</h2>
-              <div id="achievements" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
+              <div id="carouselAcheivements" class="carousel slide" data-ride="carousel">
+                <!--Indicators-->
                 <ol class="carousel-indicators">
-                  <li data-target="#achievements" data-slide-to="0" class="active"></li>
-                  <li data-target="#achievements" data-slide-to="1"></li>
-                  <li data-target="#achievements" data-slide-to="2"></li>
-                  <li data-target="#achievements" data-slide-to="3"></li>
-                  <li data-target="#achievements" data-slide-to="4"></li>
+                  <li data-target="#carouselAcheivements" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselAcheivements" data-slide-to="1"></li>
+                  <li data-target="#carouselAcheivements" data-slide-to="2"></li>
+                  <li data-target="#carouselAcheivements" data-slide-to="3"></li>
                 </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <!--Item1-->
-                  <div class="item active">
-                    <img src="res/gallery/CBSE Result.png" alt="CBSE Result.png">
-                    <div class="carousel-caption">
-                      Heighest Average in the Region.
-                    </div>
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="res/gallery/Selection Ad.png" alt="Selection Ad.png">
                   </div>
-                  <!--Item2-->
-                  <div class="item">
-                    <img src="res/gallery/Selection Ad.png" alt="Selection Ad.png">
-                    <div class="carousel-caption">
-                      50% selection in Jee Mains and 100% selection in IPU.
-                    </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="res/gallery/Result1.gif" alt="Result1.gif">
                   </div>
-                  <!--Item3-->
-                  <div class="item">
-                    <img src="res/gallery/Result1.gif" alt="Result1.gif">
-                    <div class="carousel-caption">
-                      CBSE Result
-                    </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="res/gallery/Result3.gif" alt="Result3.gif">
                   </div>
-                  <!--Item4-->
-                  <div class="item">
-                    <img src="res/gallery/Result3.gif" alt="Result3.gif">
-                    <div class="carousel-caption">
-                      CBSE Result
-                    </div>
-                  </div>
-                  <!--Item5-->
-                  <<div class="item">
-                    <img src="res/gallery/Result2.jpg" alt="Result2.jpg">
-                    <div class="carousel-caption">
-                      CBSE Result
-                    </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="res/gallery/Result2.jpg" alt="Result2.jpg">
                   </div>
                 </div>
-
-                <!-- Controls -->
-                <a class="left carousel-control" href="#achievements" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#achievements" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
               </div>
             </div><!--Carousel Ends-->
 
+            <h2 class="page-header">Gallery</h2>
             <div class="row">
           <!--Header-->
-                <h2 class="page-header">Gallery</h2>
               <!--Photo1-->
-              <div class="col-lg-3 col-md-4 col-xs-6">
-                  <a class="thumbnail" href="#">
-                      <img class="img-responsive" src="res/gallery/New Way to Teach.jpg" alt="New Way to Teach.jpg">
-                      <div class="caption">
-                        <h5 class="text-center">A.O.C. class by Shivam Bhaiya</h5>
-                        <p>
+              <div class="col-md-4 col-6">
+                  <div class="card">
+                      <img class="card-img-top img-fluid" src="res/gallery/New Way to Teach.jpg" alt="New Way to Teach.jpg">
+                      <div class="card-block">
+                        <h5 class="card-title">A.O.C. class by Shivam Bhaiya</h5>
+                        <p class="card-text">
                           A special class was organised to clear the Topic: "Wave Optics"
                         </p>
                       </div>
-                  </a>
+                  </div>
               </div>
               <!--Photo2-->
-              <div class="col-lg-3 col-md-4 col-xs-6">
-                  <a class="thumbnail" href="#">
-                      <img class="img-responsive" src="res/gallery/Practical.png" alt="">
-                      <div class="caption">
-                        <h5 class="text-center">Students doing the practical.</h5>
-                        <p>
-                          The practical was organised to make the concept of "Meter Bridge" clear.
-                        </p>
-                      </div>
-                  </a>
+              <div class="col-md-4 col-6">
+                  <div class="card">
+                      <img class="card-img-top img-fluid" src="res/gallery/Practical.png" alt="Practicals">
+                        <div class="card-block">
+                          <h5 class="card-title">Students doing the practical.</h5>
+                          <p class="card-text">
+                            The practical was organised to make the concept of "Meter Bridge" clear.
+                          </p>
+                        </div>
+                  </div>
               </div>
               <!--Photo3-->
-              <div class="col-lg-3 col-md-4 col-xs-6">
-                  <a class="thumbnail" href="#">
-                      <img class="img-responsive" src="res/gallery/Motivation.jpg" alt="">
-                      <div class="caption">
-                        <h5 class="text-center">Motivation Class by Mr. Ojha</h5>
-                        <p>
+              <div class="col-md-4 col-6">
+                  <div class="card" href="#">
+                      <img class="img-fluid card-img-top" src="res/gallery/Motivation.jpg" alt="motivational class">
+                      <div class="card-block">
+                        <h5 class="card-title">Motivation Class by Mr. Ojha</h5>
+                        <p class="card-text">
                           As exams aproach, getting stressed is nothing new. A motivation class was organised to boost students and relieve them from stress.
                         </p>
                       </div>
-                  </a>
+                  </div>
               </div>
             </div>
 
       </div><!--container ends-->
+
           <!--Contact-->
-          <div class="container-fluid contact">
+          <footer>
             <div class="container">
               <div class="row">
-                <h2 class="text-center bigHeading">Get in touch</h2>
-                <h3 class="text-center mediumHeading">We'd love to hear from you</h3>
+                <h1 class="display-3">Get in touch</h2>
               </div>
-              <br>
-              <div class="col-md-4 col-xs-12">
-                <iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=maharaja%20academy&key=AIzaSyBFJzv9dbxfjADUJDvloJrMnEIfbgr2xTk" allowfullscreen></iframe>
+              <div class="row">
+                <h2 class="display-4">We'd love to hear from you</h3>
               </div>
-              <div class="col-md-8 col-xs-12 contact-details">
-                <a class="contact_info" href="mailto:maharajaacademy2009@gmail.com?Subject=I%20want%20to%20contact%20you" target="_blank"><span class="glyphicon glyphicon-envelope"></span> Email: maharajaacademy2009@gmail.com</a>
-                <h4 class="contact_info"><span class="glyphicon glyphicon-phone"></span> Phone Number: 011-27532100,+919212387515</h4>
-                <h4 class="contact_info"><span class="glyphicon glyphicon-home"></span> Address: Near Main Bus Stop,Pooth Kalan,Delhi-110086(Infront of Bank Of Baroda)</h4>
-            </div>
-            </div>
-          </div>
-
-          <!--Footer-->
-          <footer class="footer">
-                <div class="container">
-                  <p class="text-muted text-center">
-                    &copy Maharaja Academy 2016
-                  </p>
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <iframe width="100%" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=maharaja%20academy&key=AIzaSyBFJzv9dbxfjADUJDvloJrMnEIfbgr2xTk" allowfullscreen></iframe>
                 </div>
-          </footer>
-          </div>
-      </div>
-
+                <div class="col-12 col-md-4">
+                  <address>
+                    <strong>Maharaja Academy</strong><br>
+                    Near Main Bus Stop<br>
+                    Pooth Kalan,Delhi-110086<br>
+                    Delhi-110086(Infront of Bank Of Baroda)<br>
+                    <abbr title="Phone">Phone No.:</abbr> +91-9212387515<br>
+                    <abbr title="Phone">Email:</abbr><a href="mailto:maharajaacademy2009@gmail.com?Subject=I%20want%20to%20contact%20you" target="_blank">maharajaacademy2009@gmail.com</a><br>
+                  </address>
+              </div>
+                <div class="col-12 col-md-4">
+                  <p class="lead">Built and designed by @maharajaAcademy</p>
+                </div>
+              </div>
+                <div class="row">
+                  <p class="lead" id="copyright">&copy Maharaja Academy 2017</p>
+                </div>
+              </div>
+            </footer>
       <!--Scripts-->
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
       <script type="text/javascript">
-      var options = {
-        interval: 10000,
-        pause: 'hover',
-        wrap: true
-      };
-      $('#achievements').carousel(options);
+        $(document).ready({
+          $('.carousel').carousel();
+        });
       </script>
-      <script src="./js/bootstrap.js"></script>
   </body>
 </html>
