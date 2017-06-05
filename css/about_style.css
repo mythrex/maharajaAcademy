@@ -1,8 +1,8 @@
-.img-center {
-	margin: 0 auto;
-}
 .profile-image{
-	border: 2px solid #31D39A;
 	max-height: 200px;
-	max-width: 200px; 
+	filter: grayscale(0.9);
+}
+.profile-image:hover{
+	max-height: 200px;
+	filter: grayscale(0.2);
 }

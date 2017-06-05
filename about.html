@@ -7,7 +7,7 @@
 
     <title>Maharaja Academy-About Us</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/about_style.css" type="text/css">
     <!--Fonts-->
@@ -16,139 +16,166 @@
   <body>
 
     <!--NavBAr-->
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbarContent">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="index.html"><div class="brand">
-            <img class="img-responsive"src="res/Website_Navbar_Logo.svg" class="navbar-left" alt="Logo"/>
-          </div> </a>
-        </div>
-          <!--NavbarContent-->
-          <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="myNavbarContent">
-              <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="about.html">About Us</a></li>
-                <li><a href="dashboard.html">Dashboard</a></li>
-                <!--DropDown For Class-->
-                <!--DropDown For Class-->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">11th <span class="caret"></span></a>
-                    <!--DropDown Menu-->
-                    <ul class="dropdown-menu">
-                      <li><a href="11_physics.html">Physics</a></li>
-                      <li><a href="11_chemistry.html">Chemistry</a></li>
-                      <li><a href="11_math.html">Mathematics</a></li>
-                      <li><a href="11_biology.html">Biology</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">12th <span class="caret"></span></a>
-                    <!--DropDown Menu-->
-                    <ul class="dropdown-menu">
-                      <li><a href="12_physics.html">Physics</a></li>
-                      <li><a href="12_chemistry.html">Chemistry</a></li>
-                      <li><a href="12_math.html">Mathematics</a></li>
-                      <li><a href="12_biology.html">Biology</a></li>
-                    </ul>
-                </li>
-                <li><a href="gallery.html">Gallery <span class="glyphicon glyphicon-picture"></span></a></li>
-                <li><a href="http://app.proctur.com" class="pull-right navbar-right" target="_blank">Log-in/Sign-up</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+    <!--NavBAr-->
+    <nav class="navbar navbar-toggleable-md fixed-top">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">X</span>
+      </button>
+      <a href="index.html"><div class="brand">
+        <img class="img-responsive"src="res/Website_Navbar_Logo.svg" class="navbar-left" alt="Logo"/>
+      </div> </a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery <span class="glyphicon glyphicon-picture"></span></a></li>
+        </ul>
+        <!--Right-->
+        <ul class="nav navbar-nav navbar-right">
+          <!--DropDown For Class-->
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">11th <span class="caret"></span></a>
+            <!--DropDown Menu-->
+            <ul class="dropdown-menu">
+              <li class="nav-item"><a class="nav-link" href="11_physics.html">Physics</a></li>
+              <li class="nav-item"><a class="nav-link" href="11_chemistry.html">Chemistry</a></li>
+              <li class="nav-item"><a class="nav-link" href="11_math.html">Mathematics</a></li>
+              <li class="nav-item"><a class="nav-link" href="11_biology.html">Biology</a></li>
+            </ul>
+          </li>
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">12th <span class="caret"></span></a>
+            <!--DropDown Menu-->
+            <ul class="dropdown-menu">
+              <li class="nav-item"><a class="nav-link" href="12_physics.html">Physics</a></li>
+              <li class="nav-item"><a class="nav-link" href="12_chemistry.html">Chemistry</a></li>
+              <li class="nav-item"><a class="nav-link" href="12_math.html">Mathematics</a></li>
+              <li class="nav-item"><a class="nav-link" href="12_biology.html">Biology</a></li>
+            </ul>
+          </li>
+          <li><a class="btn btn-outline" href="http://app.proctur.com" class="navbar-right" target="_blank">Log-in/Sign-up</a></li>
+        </ul>
       </div>
+    </nav>
 
           <!--AboutUs-->
+    <div class="main-container">
       <div class="container">
             <!-- Page Content -->
         <!-- Introduction Row -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">About Us
-                    <small>Teaching is our speciality and science is our passion!</small>
-                </h1>
-                <p class="paragraph">Maharaja Academy is a coaching Institute in Rohini(Pooth Kalan),Delhi-110086,India.Founded in 2009, with a vision to develop scientific perception in students. Since then our teachers have been constantly developing new ways to make science interesting and easy to learn.</p>
-            </div>
+        <div class="jumbotron">
+          <div class="row">
+              <div class="col-12">
+                  <h1 class="display-3">About Us
+                      <small>Teaching is our speciality and science is our passion!</small>
+                  </h1>
+                  <p class="lead">Maharaja Academy is a coaching Institute in Rohini(Pooth Kalan),Delhi-110086,India.Founded in 2009, with a vision to develop scientific perception in students. Since then our teachers have been constantly developing new ways to make science interesting and easy to learn.</p>
+              </div>
+          </div>
         </div>
         <!-- Team Members Row -->
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-12">
                 <h2 class="page-header">Our Team <small>Say Hi to our team.</small></h2>
             </div>
-            <div class="col-lg-3 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center profile-image" src="profile_pic/shivamKaushik.jpeg" alt="Shivam Kaushik">
-                <h3>Shivam Kaushik
-                    <small>Techonology Head</small>
-                </h3>
-                <p class="paragraph">Shivam Kaushik is also known for A.O.C. classes for physics.He is designer,creator and maintainer of this website.
-                He conducts various activities to make study enjoyable experience.</p>
-                <a href="http://mythrex.github.io" target="_blank" class="btn btn-success btn-lg" style="margin: 10px">Show My Portfolio!</a>
-            </div>
-            <div class="col-lg-3 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center profile-image" src="profile_pic/goswami.jpeg" alt="Goswami Sir">
-                <h3>Hemant Goswami.
-                    <small>Math Teacher</small>
-                </h3>
-                <p class="paragraph">Mr. Goswami is B.Sc., Btech., Mtech. .Having immense interest in mathematics he chose teaching as his main profession now.</p>
-            </div>
-            <div class="col-lg-3 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center profile-image" src="http://placehold.it/200x200" alt="">
-                <h3>Santaraj Sir.
-                    <small>Chemistry Teacher</small>
-                </h3>
-                <p class="paragraph">With over 16-17 years of experience Santraj sir has made a his name in chemistry. He has a lot of tricks that helps students in time for exams.</p>
-            </div>
-            <div class="col-lg-3 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center profile-image" src="profile_pic/pankajThakur.jpeg" alt="Thakur Sir">
-                <h3>Pankaj Thakur
-                    <small>Biology Teacher.</small>
-                </h3>
-                <p class="paragraph">Mr. Pankaj Thakur is N.E.T. qualifier and guest lecturer in Delhi University.He is pursuing Ph.D. from Delhi University.</p>
-            </div>
-        </div>
-
           </div>
-          <!--Contact-->
-          <div class="container-fluid contact">
-            <div class="container">
-              <div class="row">
-                <h2 class="text-center bigHeading">Get in touch</h2>
-                <h3 class="text-center mediumHeading">We'd love to hear from you</h3>
-              </div>
-              <br>
-              <div class="col-md-4 col-xs-12">
-                <iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=maharaja%20academy&key=AIzaSyBFJzv9dbxfjADUJDvloJrMnEIfbgr2xTk" allowfullscreen></iframe>
-              </div>
-              <div class="col-md-8 col-xs-12 contact-details">
-                <a class="contact_info" href="mailto:maharajaacademy2009@gmail.com?Subject=I%20want%20to%20contact%20you" target="_blank"><span class="glyphicon glyphicon-envelope"></span> Email: maharajaacademy2009@gmail.com</a>
-                <h4 class="contact_info"><span class="glyphicon glyphicon-phone"></span> Phone Number: 011-27532100,+919212387515</h4>
-                <h4 class="contact_info"><span class="glyphicon glyphicon-home"></span> Address: Near Main Bus Stop,Pooth Kalan,Delhi-110086(Infront of Bank Of Baroda)</h4>
-            </div>
-            </div>
-          </div>
-
-          <!--Footer-->
-          <footer class="footer">
-                <div class="container">
-                  <p class="text-muted text-center">
-                    &copy Maharaja Academy 2016
-                  </p>
+          <!--Cards-->
+          <div class="row">
+            <div class="col-lg-3 col-sm-6 col-12">
+                <div class="card">
+                  <img class="card-img-top img-responsive img-center profile-image" src="profile_pic/shivamKaushik.jpeg" alt="Shivam Kaushik">
+                  <div class="card-block">
+                    <h3 class="card-title">Shivam Kaushik
+                        <small>Techonology Head</small>
+                    </h3>
+                    <p class="card-text">Shivam Kaushik is also known for A.O.C. classes for physics.He is designer,creator and maintainer of this website.
+                    He conducts various activities to make study enjoyable experience.</p>
+                    <a href="http://mythrex.github.io" target="_blank" class="btn btn-success" style="margin: 10px">Show My Portfolio!</a>
+                  </div>
                 </div>
-          </footer>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12">
+              <div class="card">
+                <img class="card-img-top profile-image" src="profile_pic/goswami.jpeg" alt="Goswami Sir">
+                <div class="card-block">
+                  <h3 class="card-title">Hemant Goswami.
+                      <small>Math Teacher</small>
+                  </h3>
+                  <p class="card-text">Mr. Goswami is B.Sc., Btech., Mtech.
+                    .Having immense interest in mathematics he chose teaching as his main profession now.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12">
+                <div class="card">
+                  <img class="card-img-top profile-image" src="http://placehold.it/200x200" alt="">
+                  <div class="card-block">
+                    <h3 class="title">Santaraj Sir.
+                        <small>Chemistry Teacher</small>
+                    </h3>
+                    <p class="card-text">With over 16-17 years of experience Santraj sir has made a his name in chemistry.
+                      He has a lot of tricks that helps students in time for exams.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12">
+                <div class="card">
+                  <img class="card-img-top profile-image" src="profile_pic/pankajThakur.jpeg" alt="Thakur Sir">
+                  <div class="card-block">
+                    <h3 class="card-title">Pankaj Thakur
+                        <small>Biology Teacher.</small>
+                    </h3>
+                    <p class="card-text">Mr. Pankaj Thakur is N.E.T. qualifier and guest lecturer in Delhi University.He is pursuing Ph.D. from Delhi University.</p>
+                  </div>
+                </div>
+            </div>
           </div>
-      </div>
+
+      </div><!--container-->
+    </div><!--main-container-->
+
+    <!--contact-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <h1 class="display-3">Get in touch</h2>
+        </div>
+        <div class="row">
+          <h2 class="display-4">We'd love to hear from you</h3>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <iframe width="100%" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=maharaja%20academy&key=AIzaSyBFJzv9dbxfjADUJDvloJrMnEIfbgr2xTk" allowfullscreen></iframe>
+          </div>
+          <div class="col-12 col-md-4">
+            <address>
+              <strong>Maharaja Academy</strong><br>
+              Near Main Bus Stop<br>
+              Pooth Kalan,Delhi-110086<br>
+              Delhi-110086(Infront of Bank Of Baroda)<br>
+              <abbr title="Phone">Phone No.:</abbr> +91-9212387515<br>
+              <abbr title="Phone">Email:</abbr><a href="mailto:maharajaacademy2009@gmail.com?Subject=I%20want%20to%20contact%20you" target="_blank">maharajaacademy2009@gmail.com</a><br>
+            </address>
+        </div>
+          <div class="col-12 col-md-4">
+            <p class="lead">Built and designed by @maharajaAcademy</p>
+          </div>
+        </div>
+          <div class="row">
+            <p class="lead" id="copyright">&copy Maharaja Academy 2017</p>
+          </div>
+        </div>
+      </footer>
 
       <!--Scripts-->
-      <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.0.js"></script>
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-      <script src="./js/bootstrap.js"></script>
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+      <!--google-analytics-->
       <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-97682894-1', 'auto'); ga('send', 'pageview'); </script>
   </body>
 </html>

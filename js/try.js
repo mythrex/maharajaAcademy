@@ -1,14 +1,16 @@
-var arr = [2,3,4,7,8,5];
+var arr = [1,3,5,6];
 function binarySearch(arr,l,r,x)
 {
    if (r >= l)
    {
-     var mid = (l+r)/2;
+     var mid = parseInt((l+r)/2);
      if(arr[mid] == x) return mid;
      else if(arr[mid] < x) return binarySearch(arr,mid+1,r,x);
      else return binarySearch(arr,l,mid-1,x);
    }
    return l;
 }
-var res = binarySearch(arr,0,arr.length,6);
-console.log(res);
+console.log(binarySearch(arr,0,arr.length,5));
+console.log(binarySearch(arr,0,arr.length,2));
+console.log(binarySearch(arr,0,arr.length,7));
+console.log(binarySearch(arr,0,arr.length,0));
