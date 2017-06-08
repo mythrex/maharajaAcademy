@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head>d
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Maharaja Academy-About Us</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/class_style.css" type="text/css">
     <!--Fonts-->
@@ -15,60 +15,57 @@
   </head>
   <body>
 
-    <!--NavBAr-->
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbarContent">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+        <!--NavBAr-->
+        <nav class="navbar navbar-toggleable-md fixed-top">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">X</span>
           </button>
           <a href="index.html"><div class="brand">
             <img class="img-responsive"src="res/Website_Navbar_Logo.svg" class="navbar-left" alt="Logo"/>
           </div> </a>
-        </div>
-          <!--NavbarContent-->
-          <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="myNavbarContent">
-              <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="dashboard.html">Dashboard</a></li>
-                <!--DropDown For Class-->
-                <!--DropDown For Class-->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">11th <span class="caret"></span></a>
-                    <!--DropDown Menu-->
-                    <ul class="dropdown-menu">
-                      <li><a href="11_physics.html">Physics</a></li>
-                      <li><a href="11_chemistry.html">Chemistry</a></li>
-                      <li><a href="11_math.html">Mathematics</a></li>
-                      <li class="active"><a href="11_biology.html">Biology</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">12th <span class="caret"></span></a>
-                    <!--DropDown Menu-->
-                    <ul class="dropdown-menu">
-                      <li><a href="12_physics.html">Physics</a></li>
-                      <li><a href="12_chemistry.html">Chemistry</a></li>
-                      <li><a href="12_math.html">Mathematics</a></li>
-                      <li><a href="12_biology.html">Biology</a></li>
-                    </ul>
-                </li>
-                <li><a href="gallery.html">Gallery <span class="glyphicon glyphicon-picture"></span></a></li>
-                <li><a href="http://app.proctur.com" class="pull-right navbar-right" target="_blank">Log-in/Sign-up</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
 
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+              <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery <span class="glyphicon glyphicon-picture"></span></a></li>
+            </ul>
+            <!--Right-->
+            <ul class="nav navbar-nav navbar-right">
+              <!--DropDown For Class-->
+              <li class="dropdown nav-item">
+                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">11th <span class="caret"></span></a>
+                <!--DropDown Menu-->
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href="11_physics.html">Physics</a></li>
+                  <li class="nav-item"><a class="nav-link" href="11_chemistry.html">Chemistry</a></li>
+                  <li class="nav-item"><a class="nav-link" href="11_math.html">Mathematics</a></li>
+                  <li class="nav-item active"><a class="nav-link" href="11_biology.html">Biology</a></li>
+                </ul>
+              </li>
+              <li class="dropdown nav-item">
+                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">12th <span class="caret"></span></a>
+                <!--DropDown Menu-->
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href="12_physics.html">Physics</a></li>
+                  <li class="nav-item"><a class="nav-link" href="12_chemistry.html">Chemistry</a></li>
+                  <li class="nav-item"><a class="nav-link" href="12_math.html">Mathematics</a></li>
+                  <li class="nav-item"><a class="nav-link" href="12_biology.html">Biology</a></li>
+                </ul>
+              </li>
+              <li><a class="btn btn-outline" href="http://app.proctur.com" class="navbar-right" target="_blank">Log-in/Sign-up</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="main-container">
           <div class="container">
             <!--Jumbtron-->
             <div class="row">
-              <div class="col-md-12" style="margin: 5px;">
+              <div class="col-12" style="margin: 5px;">
                 <div class="jumbotron">
                   <h1 class="display-3">Although Nature needs thousands or millions of years to create a new species, man needs only a few dozen years to destroy one.</h1>
                   <p class="lead">
@@ -94,11 +91,11 @@
               <div class="col-md-4 col-xs-12">
                 <h2 class="page-header">Eminent Scientists</h2>
                 <!--Scientist1-->
-                <div class="thumbnail">
-                  <img src="http://www.iloveindia.com/indian-heroes/pics/meghnad-saha.jpg" alt="#" class="img-responsive"/>
-                  <div class="caption">
-                    <h2>Meghnad Saha</h2>
-                    <p class="lead">
+                <div class="card">
+                  <img src="http://www.iloveindia.com/indian-heroes/pics/meghnad-saha.jpg" alt="#" class="img-fluid card-img-top "/>
+                  <div class="card-block">
+                    <h2 card-title>Meghnad Saha</h2>
+                    <p class="card-text">
                       Meghnad Saha was born on October 6, 1893 in Sheoratali, a village in the District of Dacca, now in Bangladesh.
                       He was the fifth child of his parents, Sri Jagannath Saha and Smt. Bhubaneshwari Devi. His father was a grocer in the village.
                       Meghnad Saha had his early schooling in the primary school of the village.
@@ -106,11 +103,11 @@
                   </div>
                 </div>
                 <!--Scientist2-->
-                <div class="thumbnail">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Deepak_Acharya.jpg/220px-Deepak_Acharya.jpg" alt="D Acharaya" class="img-responsive"/>
-                  <div class="caption">
-                    <h2>Deepak Acharya</h2>
-                    <p class="lead">
+                <div class="card">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Deepak_Acharya.jpg/220px-Deepak_Acharya.jpg" alt="D Acharaya" class="img-fluid card-img-top "/>
+                  <div class="card-block">
+                    <h2 class="card-title">Deepak Acharya</h2>
+                    <p class="card-text">
                       Deepak Acharya (born April 30, 1975) is an Indian microbiologist and botanist from Chhindwara.
                       His work has involved the documentation of indigenous knowledge of Gond and Bharia tribes of the Patalkot Forest in Madhya
                       Pradesh. Currently, he is scouting the knowledge of herbal healers of Dangs in Gujarat and Aravallis in Rajasthan.
@@ -120,23 +117,46 @@
               </div>
             </div>
           </div>
+        </div>
 
 
-          <!--Footer-->
-          <footer class="footer">
-                <div class="container">
-                  <p class="text-muted text-center">
-                    &copy Maharaja Academy 2016
-                  </p>
-                </div>
+        <!--Contact-->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <h1 class="display-3">Get in touch</h2>
+            </div>
+            <div class="row">
+              <h2 class="display-4">We'd love to hear from you</h3>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <iframe width="100%" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=maharaja%20academy&key=AIzaSyBFJzv9dbxfjADUJDvloJrMnEIfbgr2xTk" allowfullscreen></iframe>
+              </div>
+              <div class="col-12 col-md-4">
+                <address>
+                  <strong>Maharaja Academy</strong><br>
+                  Near Main Bus Stop<br>
+                  Pooth Kalan,Delhi-110086<br>
+                  Delhi-110086(Infront of Bank Of Baroda)<br>
+                  <abbr title="Phone">Phone No.:</abbr> +91-9212387515<br>
+                  <abbr title="Phone">Email:</abbr><a href="mailto:maharajaacademy2009@gmail.com?Subject=I%20want%20to%20contact%20you" target="_blank">maharajaacademy2009@gmail.com</a><br>
+                </address>
+            </div>
+              <div class="col-12 col-md-4">
+                <p class="lead">Built and designed by @maharajaAcademy</p>
+              </div>
+            </div>
+              <div class="row">
+                <p class="lead" id="copyright">&copy Maharaja Academy 2017</p>
+              </div>
+            </div>
           </footer>
-          </div>
-      </div>
 
       <!--Scripts-->
-      <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.0.js"></script>
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-      <script src="./js/bootstrap.js"></script>
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
       <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-97682894-1', 'auto'); ga('send', 'pageview'); </script>
   </body>
 </html>

@@ -33,6 +33,9 @@ small{
 .navbar .brand{
   width: 80%;
 }
+.navbar .navbar-toggler{
+  border: 1px solid #BDBDBD;
+}
 .navbar #navbarSupportedContent .active a{
   color: #00796B;
 }
@@ -88,6 +91,9 @@ a:hover{
 }
 .card .card-text{
   color: #757575;
+}
+.card .card-title{
+  color: #212121;
 }
 footer{
   margin-top: 20px;
