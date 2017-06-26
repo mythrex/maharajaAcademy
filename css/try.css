@@ -4,7 +4,7 @@
   max-height: 200px;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid  #009688;
+  border: 3px solid  #009688; 
 }
 .review-card>.card-block{
   border-radius: 10px;
