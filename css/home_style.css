@@ -1,31 +1,55 @@
-.review-img{
+.review-img {
   display: block;
   border-radius: 100%;
   max-height: 200px;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid  #009688;
-}
-.review-card>.card-block{
-  border-radius: 10px;
-  background: #009688;
-  padding-top: 120px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  position: relative;
-  top: -100px;
-  z-index: -1;
-}
-.review-card>.card-block>.card-text>p{
-  font-size: 1.5em;
-  font-family: "Gloria Hallelujah",cursive;
-  text-align: center;
-  color: White;
-}
-.features{
-  padding-top: 20px;
-}
-.img-features{
-  max-height: 500px;
-}
+  border: 3px solid #00a08d; }
+
+.review-card {
+  margin: 10px auto; }
+  .review-card .card-block {
+    border-radius: 10px;
+    background: #00a08d;
+    padding-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: -100px;
+    z-index: -1; }
+    .review-card .card-block .card-text p {
+      font-size: 1.5em;
+      font-family: "Gloria Hallelujah", cursive;
+      text-align: center;
+      color: White; }
+
+.features {
+  padding-top: 20px; }
+
+.img-features {
+  max-height: 400px; }
+
+#carouselExampleIndicators {
+  height: 60vh;
+  color: white; }
+  #carouselExampleIndicators .carousel-inner {
+    height: 100%;
+    width: 100%; }
+    #carouselExampleIndicators .carousel-inner .carousel-item {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center; }
+    #carouselExampleIndicators .carousel-inner .active {
+      height: 100%;
+      display: flex; }
+      #carouselExampleIndicators .carousel-inner .active .carousel-caption {
+        font-weight: bolder;
+        margin: auto;
+        position: relative;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0; }
+
+/*# sourceMappingURL=home_style.css.map */

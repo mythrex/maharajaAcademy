@@ -20,6 +20,10 @@ footer {
   footer address abbr {
     margin-right: 5px; }
 
+.textCenter {
+  text-align: center;
+  margin: 20px auto; }
+
 .btn-primary {
   color: white;
   background: #00a08d;
@@ -124,6 +128,10 @@ label {
 
 .bg-app-color {
   background-color: #00a08d;
+  color: White; }
+
+.bg-accent-color {
+  background-color: #fe5353;
   color: White; }
 
 .alert-info {
