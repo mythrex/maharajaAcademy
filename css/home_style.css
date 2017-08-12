@@ -23,3 +23,9 @@
   text-align: center;
   color: White;
 }
+.features{
+  padding-top: 20px;
+}
+.img-features{
+  max-height: 500px;
+}

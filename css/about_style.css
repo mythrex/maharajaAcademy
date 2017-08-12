@@ -1,8 +1,10 @@
-.profile-image{
-	max-height: 200px;
-	filter: grayscale(0.9);
-}
-.profile-image:hover{
-	max-height: 200px;
-	filter: grayscale(0.2);
-}
+.profile-image {
+  max-height: 200px;
+  filter: grayscale(0.9); }
+  .profile-image:hover {
+    filter: grayscale(0.2); }
+
+.team-members .card {
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=about_style.css.map */

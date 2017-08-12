@@ -7,19 +7,17 @@
 
     <title>Maharaja Academy-About Us</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/class_style.css" type="text/css">
-    <!--Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Ubuntu:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="css/about_style.css">
   </head>
   <body>
 
     <!--NavBAr-->
-    <!--NavBAr-->
     <nav class="navbar navbar-toggleable-md fixed-top">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">X</span>
+        <span class="fa fa-bars"></span>
       </button>
       <a href="index.html"><div class="brand">
         <img class="img-responsive"src="res/Website_Navbar_Logo.svg" class="navbar-left" alt="Logo"/>
@@ -31,7 +29,6 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
           <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery <span class="glyphicon glyphicon-picture"></span></a></li>
         </ul>
         <!--Right-->
@@ -43,7 +40,7 @@
             <ul class="dropdown-menu">
               <li class="nav-item"><a class="nav-link" href="11_physics.html">Physics</a></li>
               <li class="nav-item"><a class="nav-link" href="11_chemistry.html">Chemistry</a></li>
-              <li class="nav-item"><a class="nav-link" href="11_math.html">Mathematics</a></li>
+              <li class="nav-item active"><a class="nav-link" href="11_math.html">Mathematics</a></li>
               <li class="nav-item"><a class="nav-link" href="11_biology.html">Biology</a></li>
             </ul>
           </li>
@@ -53,7 +50,7 @@
             <ul class="dropdown-menu">
               <li class="nav-item"><a class="nav-link" href="12_physics.html">Physics</a></li>
               <li class="nav-item"><a class="nav-link" href="12_chemistry.html">Chemistry</a></li>
-              <li class="nav-item active"><a class="nav-link" href="12_math.html">Mathematics</a></li>
+              <li class="nav-item"><a class="nav-link" href="12_math.html">Mathematics</a></li>
               <li class="nav-item"><a class="nav-link" href="12_biology.html">Biology</a></li>
             </ul>
           </li>
@@ -78,7 +75,7 @@
               </div>
               <div class="row">
                 <!--Assignments-->
-                <div class="col-md-8 col-xs-12">
+                <div class="col-md-6 col-sm-7 col-xs-12">
                   <div class="card">
                     <div class="card-header">
                       Assignments!
@@ -125,14 +122,14 @@
                   </div>
                 </div>
                 <!--Images Indian Scientist-->
-                <div class="col-md-4 col-xs-12">
+                <div class="col-md-6 col-sm-5 col-xs-12">
                   <h2 class="page-header">Eminent Mathematicians</h2>
                   <!--Scientist1-->
                   <div class="card">
                     <img src="http://www.famous-mathematicians.com/images/aryabhata.jpg" alt="Aryabhata" class="img-responsive"/>
                     <div class="card-block">
                       <h2 class="card-title">Aryabhata</h2>
-                      <p class="block">
+                      <p class="card-text">
                         Aryabhata worked on the place value system using letters to signify numbers and stating qualities. He discovered the position of nine planets and stated that these planets revolve around the sun.
                         He also stated the correct number of days in a year that is 365
                       </p>
@@ -143,7 +140,7 @@
                     <img src="http://www.famous-mathematicians.com/images/srinivasa-ramanujan.jpg" alt="S.   Ramanujan" class="img-responsive"/>
                     <div class="card-block">
                       <h2 class="card-title">Srinivasa Ramanujan</h2>
-                      <p class="block">
+                      <p class="card-text">
                         Srinivasa Ramanujan is one of the celebrated Indian mathematicians. His important contributions to the field
                         include Hardy-Ramanujan-Littlewood circle method in number theory, Roger-Ramanujan’s identities in partition of
                         numbers, work on algebra of inequalities,  elliptic functions, continued fractions, partial sums and products of hypergeometric series.
@@ -155,7 +152,7 @@
                     <img src="http://www.famous-mathematicians.com/images/satyendranath-bose.jpg" alt="S. Bose" class="img-responsive"/>
                     <div class="card-block">
                       <h2 class="card-title">Satyendranath Bose</h2>
-                      <p class="block">
+                      <p class="card-text">
                         Known for his collaboration with Albert Einstein. He is best known for his work on quantum mechanics in the early 1920s,
                         providing the foundation for Bose–Einstein statistics and the theory of the Bose–Einstein condensate.
                       </p>
@@ -166,7 +163,7 @@
             </div>
           </div>
 
-          <!--Contact-->
+          <!--contact-->
           <footer>
             <div class="container">
               <div class="row">
@@ -194,15 +191,15 @@
                 </div>
               </div>
                 <div class="row">
-                  <p class="lead" id="copyright">&copy Maharaja Academy 2017</p>
+                  <p class="lead" id="copyright">&copy; Maharaja Academy 2017</p>
                 </div>
               </div>
             </footer>
 
       <!--Scripts-->
-      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+      <script src="js/jquery.js" ></script>
+      <script src="js/tether.min.js"></script>
+      <script src="js/bootstrap.js"></script>
       <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-97682894-1', 'auto'); ga('send', 'pageview'); </script>
   </body>
 </html>
