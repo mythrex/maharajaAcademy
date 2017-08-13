@@ -19,8 +19,7 @@
     top: -100px;
     z-index: -1; }
     .review-card .card-block .card-text p {
-      font-size: 1.5em;
-      font-family: "Gloria Hallelujah", cursive;
+      font-size: 1.2em;
       text-align: center;
       color: White; }
 
@@ -29,6 +28,9 @@
 
 .img-features {
   max-height: 400px; }
+
+#carousel-container {
+  padding: 0; }
 
 #carouselExampleIndicators {
   height: 60vh;
@@ -39,7 +41,8 @@
     #carouselExampleIndicators .carousel-inner .carousel-item {
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center; }
+      background-position: center;
+      background-attachment: fixed; }
     #carouselExampleIndicators .carousel-inner .active {
       height: 100%;
       display: flex; }
