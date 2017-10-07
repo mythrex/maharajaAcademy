@@ -8,7 +8,7 @@
 
 .review-card {
   margin: 10px auto; }
-  .review-card .card-block {
+  .review-card .card-body {
     border-radius: 10px;
     background: #00a08d;
     padding-top: 120px;
@@ -18,7 +18,7 @@
     position: relative;
     top: -100px;
     z-index: -1; }
-    .review-card .card-block .card-text p {
+    .review-card .card-body .card-text p {
       font-size: 1.2em;
       text-align: center;
       color: White; }
@@ -38,21 +38,12 @@
   #carouselExampleIndicators .carousel-inner {
     height: 100%;
     width: 100%; }
-    #carouselExampleIndicators .carousel-inner .carousel-item {
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed; }
     #carouselExampleIndicators .carousel-inner .active {
-      height: 100%;
-      display: flex; }
+      height: 100%; }
       #carouselExampleIndicators .carousel-inner .active .carousel-caption {
         font-weight: bolder;
         margin: auto;
-        position: relative;
-        right: 0;
-        left: 0;
-        top: 0;
-        bottom: 0; }
+        position: absolute;
+        top: 30%; }
 
 /*# sourceMappingURL=home_style.css.map */

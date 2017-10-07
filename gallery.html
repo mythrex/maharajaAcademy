@@ -7,7 +7,7 @@
 
   <title>Maharaja Academy-Gallery</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link href="css/font-awesome.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="stylesheet" href="css/gallery_style.css">
@@ -15,13 +15,13 @@
   <body>
 
     <!--NavBAr-->
-    <nav class="navbar navbar-toggleable-md fixed-top">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">X</span>
-      </button>
-      <a href="index.html"><div class="brand">
+    <nav class="navbar navbar-expand-md fixed-top">
+      <a href="index.html"><div class="navbar-brand brand">
         <img class="img-responsive"src="res/Website_Navbar_Logo.svg" class="navbar-left" alt="Logo"/>
       </div> </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-bars"></span>
+      </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -67,10 +67,10 @@
             <div class="row">
           <!--Header-->
               <!--Photo1-->
-              <div class="col-md-4 col-6">
+              <div class="col-md-4 col-sm-6 col-12">
                   <div class="card">
                       <img class="card-img-top img-fluid" src="res/gallery/New Way to Teach.jpg" alt="New Way to Teach.jpg">
-                      <div class="card-block">
+                      <div class="card-body">
                         <h5 class="card-title">A.O.C. class by Shivam Bhaiya</h5>
                         <p class="card-text">
                           A special class was organised to clear the Topic: "Wave Optics"
@@ -79,10 +79,10 @@
                   </div>
               </div>
               <!--Photo2-->
-              <div class="col-md-4 col-6">
+              <div class="col-md-4 col-sm-6 col-12">
                   <div class="card">
                       <img class="card-img-top img-fluid" src="res/gallery/Practical.png" alt="Practicals">
-                        <div class="card-block">
+                        <div class="card-body">
                           <h5 class="card-title">Students doing the practical.</h5>
                           <p class="card-text">
                             The practical was organised to make the concept of "Meter Bridge" clear.
@@ -91,10 +91,10 @@
                   </div>
               </div>
               <!--Photo3-->
-              <div class="col-md-4 col-6">
+              <div class="col-md-4 col-sm-6 col-12">
                   <div class="card">
                       <img class="img-fluid card-img-top" src="res/gallery/Motivation.jpg" alt="motivational class">
-                      <div class="card-block">
+                      <div class="card-body">
                         <h5 class="card-title">Motivation Class by Mr. Ojha</h5>
                         <p class="card-text">
                           As exams aproach, getting stressed is nothing new. A motivation class was organised to boost students and relieve them from stress.
@@ -103,10 +103,10 @@
                   </div>
               </div>
               <!--Seminar Video-->
-              <div class="col-md-4 col-6">
+              <div class="col-md-4 col-sm-6 col-12">
                   <div class="card">
                     <iframe src="https://drive.google.com/file/d/0B9moRM5BdbZ8QjhNSS12bVhQRG8/preview" width="100%" height="auto"></iframe>
-                      <div class="card-block">
+                      <div class="card-body">
                         <h5 class="card-title">Seminar Charging with Capacitor(with 3300uF capacitor)</h5>
                         <p class="card-text">
                           Seminar was conducted to help students understand the basics of capacitor and give them real-life demonstration.
@@ -115,10 +115,10 @@
                   </div>
               </div>
               <!--Fun Too-->
-              <div class="col-md-4 col-6">
+              <div class="col-md-4 col-sm-6 col-12">
                   <div class="card">
-                      <img class="img-fluid card-img-top" src="res/Potential_Difference.jpg"  alt="Fun">
-                      <div class="card-block">
+                      <img class="img-fluid card-img-top" src="res/gallery/Potential Difference.jpg"  alt="Fun">
+                      <div class="card-body">
                         <h5 class="card-title">And fun too!</h5>
                         <p class="card-text">
                           Students were finding potential difference around their head.
@@ -129,10 +129,10 @@
                   </div>
               </div>
               <!--Seminar Video2-->
-              <div class="col-md-4 col-6">
+              <div class="col-md-4 col-sm-6 col-12">
                   <div class="card">
                     <iframe src="https://drive.google.com/file/d/0B9moRM5BdbZ8VE54TzYxbUNudmM/preview" width="100%" height="auto"></iframe>
-                      <div class="card-block">
+                      <div class="card-body">
                         <h5 class="card-title">Seminar Charging with Capacitor(with 8.2uF capacitor)</h5>
                         <p class="card-text">
                           With this capacitor discharging was way to fast.
@@ -178,9 +178,9 @@
               </div>
             </footer>
       <!--Scripts-->
-      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
       <script type="text/javascript">
         $(document).ready({
           $('.carousel').carousel();

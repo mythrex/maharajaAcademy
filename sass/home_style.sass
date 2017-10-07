@@ -9,7 +9,7 @@
 
 .review-card
   margin: 10px auto
-  .card-block
+  .card-body
     border-radius: 10px
     background: $primary-color
     padding-top: 120px
@@ -42,19 +42,10 @@
   .carousel-inner
     height: 100%
     width: 100%
-    .carousel-item
-      background-repeat: no-repeat
-      background-size: cover
-      background-position: center
-      background-attachment: fixed
     .active
       height: 100%
-      display: flex
       .carousel-caption
         font-weight: bolder
         margin: auto
-        position: relative
-        right: 0
-        left: 0
-        top: 0
-        bottom: 0
+        position: absolute
+        top: 30%

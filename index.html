@@ -8,20 +8,20 @@
     <meta name="keywords" content="CBSE COACHING CENTER,INSTITUTE,physics tuition,chemistry tuition,jee coaching center,institute for jee mains,12th class coaching center,11th class coaching center,10th class coaching center,9th class coaching cente,best institute center near me,marksman in physics">
     <title>Maharaja Academy-Home</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link href="css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/home_style.css" type="text/css">
   </head>
   <body>
     <!--NavBAr-->
-    <nav class="navbar navbar-toggleable-md fixed-top">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="fa fa-bars"></span>
-      </button>
-      <a href="index.html"><div class="brand">
+    <nav class="navbar navbar-expand-md fixed-top">
+      <a href="index.html"><div class="navbar-brand brand">
         <img class="img-fluid"src="res/Website_Navbar_Logo.svg" class="navbar-left" alt="Logo"/>
       </div> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-bars"></span>
+      </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -71,21 +71,24 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
           <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active" style="background-image: url('./res/Capacitor.jpg')">
+            <div class="carousel-item active">
+              <img class="w-100 h-100" src="./res/Capacitor.jpg" alt="">
               <div class="carousel-caption d-lg-block">
                 <h2>Charging and Discharging of Capacitor- Seminar</h2>
                 <p>Learn about working of capacitor with Live Project</p>
                 <a class="btn btn-primary" href="12_physics.html">Learn More!</a>
               </div>
             </div>
-            <div class="carousel-item" style="background-image: url('./res/algoodo.jpg')">
-              <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-item">
+              <img class="w-100 h-100" src="./res/algoodo.jpg" alt="">
+              <div class="carousel-caption d-lg-block">
                 <h2> Learn Physics in a New Way!</h2>
                 <p> Visualise with help of softwares and fall in <span class="fa fa-heart"></span> with Science.</p>
               </div>
             </div>
-            <div class="carousel-item" style="background-image: url('./res/scientist_wallpaper.jpg');">
-              <div class="carousel-caption d-none d-md-block" style="color: #212121">
+            <div class="carousel-item">
+              <img class="w-100 h-100" src="./res/scientist_wallpaper.jpg" alt="">
+              <div class="carousel-caption d-lg-block">
                 <h2>Unleash your inner scientist!</h2>
                 <p> We believe that every student is unique and that's why we don't assure you marks, we assure you concept.</p>
               </div>
@@ -112,7 +115,7 @@
           <div class="row">
             <div class="col-md-4 col-sm-6 col-12">
               <div class="card">
-                <div class="card-block">
+                <div class="card-body">
                   <img src="res/Concept Development.png" alt="Concept Development.png" class="card-img-top img-fluid image-speciality" />
                   <h3 class="card-title text-center">Concept Development</h3>
                   <p class="card-text">
@@ -124,7 +127,7 @@
             </div>
             <div class="col-md-4 col-sm-6 col-12">
               <div class="card">
-                <div class="card-block">
+                <div class="card-body">
                   <img src="res/Application of concepts.png" alt="Application of concepts" class="card-img-top img-fluid  image-speciality" />
                   <h3 class="card-title text-center">Application of Concepts</h3>
                   <p class="card-text">
@@ -135,7 +138,7 @@
             </div>
             <div class="col-md-4 col-sm-6 col-12">
               <div class="card">
-                <div class="card-block">
+                <div class="card-body">
                   <img src="res/Relation of concepts to real life.png" alt="Relation of concepts to real life " class="card-img-top img-fluid image-speciality" />
                   <h3 class="card-title text-center">Relation of the concepts to real life.</h3>
                   <p class="card-text">
@@ -155,12 +158,12 @@
           <div class="row">
             <h1 class="textCenter">What our students say about us!</h1>
           </div>
-          <div class="row">
+          <div class="row flex-column" style="max-height: 650px; overflow-y: hidden;">
             <!--Review 1-->
             <div class="col-12 col-md-4 col-sm-6">
               <div class="review-card">
                 <img class="review-img" src="res/reviews/Neeraj.png" alt="Pic">
-                <div class="card-block">
+                <div class="card-body">
                   <div class="card-text">
                     <p>Neeraj Kumar</p>
                     <p>"Every teachers understands the student very well."</p>
@@ -172,7 +175,7 @@
             <div class="col-12 col-md-4 col-sm-6">
               <div class="review-card">
                 <img class="review-img" src="res/reviews/Sudhanshu.png" alt="Pic">
-                <div class="card-block">
+                <div class="card-body">
                   <div class="card-text">
                     <p>Sudhanshu Sharma</p>
                     <p>"Teachers teach dedicately and well."</p>
@@ -184,7 +187,7 @@
             <div class="col-12 col-md-4 col-sm-6">
               <div class="review-card">
                 <img class="review-img" src="res/reviews/Amit.png" alt="Pic">
-                <div class="card-block">
+                <div class="card-body">
                   <div class="card-text">
                     <p>Amit</p>
                     <p>"Well qualified staff and good environment for study."</p>
@@ -196,7 +199,7 @@
             <div class="col-12 col-md-4 col-sm-6">
               <div class="review-card">
                 <img class="review-img" src="res/reviews/Himanshu.png" alt="Pic">
-                <div class="card-block">
+                <div class="card-body">
                   <div class="card-text">
                     <p>Himanshu Sharma</p>
                     <p>"I like the way they teach in this academy and they conduct weakly test in class."</p>
@@ -208,7 +211,7 @@
             <div class="col-12 col-md-4 col-sm-6">
               <div class="review-card">
                 <img class="review-img" src="res/reviews/Rahul.JPG" alt="Pic">
-                <div class="card-block">
+                <div class="card-body">
                   <div class="card-text">
                     <p>Rahul</p>
                     <p>"They only focus to clear concepts unlike other who talks only of marks.
@@ -323,9 +326,9 @@
 
 
       <!--Scripts-->
-      <script src="js/jquery.js" ></script>
-      <script src="js/tether.min.js" ></script>
-      <script src="js/bootstrap.js" ></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
       <script type="text/javascript">
       $('#carouselExampleIndicators').carousel({
         interval: false
