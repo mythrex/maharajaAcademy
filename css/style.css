@@ -1,17 +1,18 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 body {
-  font-family: Roboto, sans-serif; }
+  font-family: "Open-sans", Roboto, sans-serif; }
 
 a {
   color: #00a08d; }
   a:hover {
-    color: #003a33; }
+    color: #006d60; }
 
 .main-container {
-  margin-top: 82px; }
+  margin-top: 65px; }
 
 footer {
-  background: #003a33;
+  background: #006d60;
   color: White; }
   footer a {
     color: White; }
@@ -29,8 +30,8 @@ footer {
   background: #00a08d;
   border: 1px solid #00a08d; }
   .btn-primary:hover {
-    background: #003a33;
-    border: 1px solid #003a33; }
+    background: #006d60;
+    border: 1px solid #006d60; }
 
 .btn-outline-primary {
   color: #00a08d;
@@ -68,7 +69,7 @@ label {
       content: ""; }
     label input[type=checkbox]:disabled + .label-text::before {
       content: "";
-      color: #ffb8b8; }
+      color: #fe8686; }
   label input[type=radio] {
     display: none; }
     label input[type=radio] + .label-text::before {
@@ -88,7 +89,7 @@ label {
       content: ""; }
     label input[type=radio]:disabled + .label-text::before {
       content: "";
-      color: #ffb8b8; }
+      color: #fe8686; }
 
 .badge-default {
   background-color: #00a08d; }
@@ -97,9 +98,12 @@ label {
   background: White;
   border-bottom: 1px solid #BDBDBD; }
   .navbar .navbar-brand {
-    color: #00a08d; }
+    color: #00a08d;
+    margin-right: 5px; }
+    .navbar .navbar-brand img {
+      max-width: 200px; }
     .navbar .navbar-brand:hover {
-      color: #003a33; }
+      color: #006d60; }
   .navbar .navbar-nav .nav-item .nav-link {
     color: #757575; }
     .navbar .navbar-nav .nav-item .nav-link:hover {
@@ -107,7 +111,7 @@ label {
   .navbar .navbar-nav .active .nav-link {
     color: #00a08d; }
     .navbar .navbar-nav .active .nav-link:hover {
-      color: #003a33; }
+      color: #006d60; }
 
 .card {
   margin-bottom: 5px; }
@@ -140,7 +144,7 @@ label {
   color: white; }
 
 .pagination .page-item .page-link {
-  color: #ea0101; }
+  color: #fe2020; }
 
 .progress .progress-bar {
   background-color: #00a08d; }
@@ -160,6 +164,12 @@ label {
   padding: 5px;
   margin-bottom: 5px;
   border-bottom: 1px solid #BDBDBD;
+  font-weight: bold; }
+
+.bolder {
+  font-weight: bolder; }
+
+.bold {
   font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */

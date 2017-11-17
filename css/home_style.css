@@ -33,17 +33,20 @@
   padding: 0; }
 
 #carouselExampleIndicators {
-  height: 60vh;
+  height: 80vh;
   color: white; }
   #carouselExampleIndicators .carousel-inner {
     height: 100%;
     width: 100%; }
-    #carouselExampleIndicators .carousel-inner .active {
-      height: 100%; }
-      #carouselExampleIndicators .carousel-inner .active .carousel-caption {
+    #carouselExampleIndicators .carousel-inner .carousel-item {
+      height: 100%;
+      width: 100%; }
+      #carouselExampleIndicators .carousel-inner .carousel-item img {
+        height: 100%;
+        width: 100%; }
+      #carouselExampleIndicators .carousel-inner .carousel-item .carousel-caption {
+        display: block;
         font-weight: bolder;
-        margin: auto;
-        position: absolute;
-        top: 30%; }
+        margin: auto; }
 
 /*# sourceMappingURL=home_style.css.map */
