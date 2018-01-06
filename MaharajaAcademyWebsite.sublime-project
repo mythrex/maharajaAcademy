@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/mythrex/Coding/Maharaja Academy Website",
+			"folder_exclude_patterns": [ "node_modules"],
+			"file_exclude_patterns": ".*"
+		}
+	]
+}

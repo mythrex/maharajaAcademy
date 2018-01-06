@@ -1,0 +1,423 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"req",
+				"req\trequire"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "araja Academy Website                                                                                                                                \n> webpack-dev-server                                                                                                                                 \n                                                                                                                                                     \nProject is running at http://localhost:8080/                                                                                                         \nwebpack output is served from /                                                                                                                      \nContent not from webpack is served from /home/mythrex/Coding/                                                                                        \nMaharaja Academy Website/dist                                                                                                                        \n                                                                                                                                                     \nwebpack: Compiled successfully.                                                                                                                      \nwebpack: Compiling...                                                                                                                                \n                                                                                                                                                     \nwebpack: Compiled successfully.                                                                                                                      \nwebpack: Compiling...                                                                                                                                \n                                                                                                                                                     \nwebpack: Compiled successfully.                                                                                                                      \nwebpack: Compiling...                                                                                                                                \n                                                                                                                                                     \nwebpack: Compiled successfully.                                                                                                                      \nwebpack: Compiling...                                                                                                                                \n                                                                                                                                                     \nwebpack: Compiled successfully.                                                                                                                      \nwebpack: Compiling...                                                                                                                                \n                                                                                                                                                     \nwebpack: Compiled successfully.                                                                                                                      \nwebpack: Compiling...                                                                                                                                \n                                                                                                                                                     \nwebpack: Compiled successfully.                                                                                                                      \nwebpack: Compiling...                                                                                                                                \n                                                                                                                                                     \nwebpack: Compiled successfully.                                                                                                                      \nwebpack: Compiling...                                                                                                                                \n                                                                                                                                                     \nwebpack: Compiled successfully.                                                                                                                      \nwebpack: Compiling...                                                                                                                                \n                                                                                                                                                     \nwebpack: Compiled successfully.                                                                                                                      \nwebpack: Compiling...                                                                                                                                \n                                                                                                                                                     \nwebpack: Compiled successfully.                                                                                                                      \nwebpack: Compiling...                                                                                                                                \n                                                                                                                                                     \nwebpack: Compiled successfully.                                                                                                                      \n                                                                                                                                                     \n",
+			"settings":
+			{
+				"buffer_size": 6450,
+				"line_ending": "Unix",
+				"name": "Terminal (bash)",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "src/sass/modules/palette.sass",
+			"settings":
+			{
+				"buffer_size": 248,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 355.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"termin",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"termi",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"term",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instaa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Install Package Control"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 206.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/mythrex/Coding/Maharaja Academy Website",
+		"/home/mythrex/Coding/Maharaja Academy Website/src",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/materialize_config",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/sass",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/modules"
+	],
+	"file_history":
+	[
+		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/modules/palette.sass",
+		"/home/mythrex/.config/sublime-text-3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/app.js",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/partials/navbar.ejs",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/index.ejs",
+		"/home/mythrex/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/materialize_config/materialize.config.scss",
+		"/home/mythrex/Downloads/palette.sass",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/common.sass",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/partials/home.ejs",
+		"/home/mythrex/Coding/Maharaja Academy Website/package.json",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/home.sass",
+		"/home/mythrex/Coding/Maharaja Academy Website/webpack.config.js",
+		"/home/mythrex/.config/sublime-text-3/Packages/TerminalView/README.md",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/partials/header.ejs",
+		"/home/mythrex/Coding/Webpack/src/contact.html",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/partials/footer.ejs",
+		"/home/mythrex/Coding/Maharaja Academy Website/node_modules/materialize-css/sass/components/_variables.scss",
+		"/home/mythrex/Coding/Maharaja Academy Website/node_modules/materialize-css/sass/components/_buttons.scss",
+		"/home/mythrex/Coding/Maharaja Academy Website/node_modules/materialize-css/sass/materialize.scss",
+		"/home/mythrex/Coding/Maharaja Academy Website/node_modules/materialize-css/sass/components/_color.scss",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/materialize.config.scss",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/_palette.sass",
+		"/home/mythrex/Coding/Webpack/webpack.config.js",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/index.html",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/js/materialize.config.js",
+		"/home/mythrex/Coding/Maharaja Academy Website/materialize.config.scss",
+		"/home/mythrex/Coding/Maharaja Academy Website/materialize.config.js",
+		"/home/mythrex/Coding/Maharaja Academy Website/MaharajaAcademyWebsite.sublime-project",
+		"/home/mythrex/Coding/Webpack/package.json",
+		"/home/mythrex/Coding/Webpack/src/app.js",
+		"/home/mythrex/Coding/Webpack/src/css/app.scss",
+		"/home/mythrex/Coding/Webpack/src/index.html",
+		"/home/mythrex/Coding/Webpack/.babelrc",
+		"/home/mythrex/Coding/Webpack/Webpack Project",
+		"/home/mythrex/.config/sublime-text-3/Packages/User/require.sublime-snippet",
+		"/home/mythrex/Coding/Webpack/src/css/app.css",
+		"/home/mythrex/Coding/Webpack/dist/index.html",
+		"/home/mythrex/Coding/Webpack/index.html",
+		"/home/mythrex/.config/sublime-text-3/Packages/User/module.exports.sublime-snippet",
+		"/home/mythrex/.config/sublime-text-3/Packages/User/console.log.sublime-snippet",
+		"/home/mythrex/.config/sublime-text-3/Packages/Terminality/Default (Linux).sublime-keymap",
+		"/home/mythrex/.config/sublime-text-3/Packages/Terminality/README.md"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"back",
+			"roboto"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6450,
+						"regions":
+						{
+							"3,22":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										472,
+										494
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"4,30":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										630,
+										631
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"5,40":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										790,
+										811
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"6,0":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										900,
+										929
+									]
+								],
+								"scope": "terminalview.black_blue"
+							}
+						},
+						"selection":
+						[
+							[
+								6300,
+								6300
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_commit_on_tab": false,
+							"caret_style": "blink",
+							"color_scheme": "Packages/TerminalView/TerminalView.hidden-tmTheme",
+							"colorcode": true,
+							"default_dir": "/home/mythrex/Coding/Maharaja Academy Website",
+							"draw_centered": false,
+							"draw_indent_guides": false,
+							"draw_white_space": "none",
+							"gutter": false,
+							"highlight_line": false,
+							"scroll_past_end": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"terminal_view": true,
+							"terminal_view_activate_args":
+							{
+								"cmd": "/bin/bash -l",
+								"cwd": "/home/mythrex/Coding/Maharaja Academy Website",
+								"keep_open": false,
+								"syntax": null,
+								"title": "Terminal (bash)"
+							},
+							"terminal_view_last_cursor_pos":
+							[
+								42,
+								0
+							],
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/sass/modules/palette.sass",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 79.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "MaharajaAcademyWebsite.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
