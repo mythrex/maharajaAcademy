@@ -16,6 +16,9 @@ const Amit = require('./images/reviews/Amit.png');
 const Himanshu = require('./images/reviews/Himanshu.png');
 const Rahul = require('./images/reviews/Rahul.JPG');
 const Sudhanshu = require('./images/reviews/Sudhanshu.png');
+//sections
+const LatestTechImg = require('./images/Updates_on_Laptop.png');
+const Stressed = require('./images/Stressed.png');
 //document ready\
 
 $(function () {
@@ -24,6 +27,7 @@ $(function () {
 		fullWidth: true,
 		duration: 200
 	});
+	$('.parallax').parallax();
 
 	var imgAOC = $('#img-aoc');
 	imgAOC.attr('src',AOC);
@@ -48,4 +52,10 @@ $(function () {
 
 	var sudhanshu = $('#sudhanshu');
 	sudhanshu.attr('src',Sudhanshu);
+
+	var latestTech = $('#latest-tech');
+	latestTech.attr('src',LatestTechImg);
+
+	var stressed = $('#img-stressed');
+	stressed.attr('src',Stressed);
 })
