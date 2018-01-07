@@ -23,8 +23,13 @@ module.exports = {
 	module: {
 		rules: [
 			{test: /\.sass$|\.scss$|\.css$/, use: cssConfig},
-			{ test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'url-loader?limit=10000&mimetype=application/font-woff' },
-	        { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'file-loader' },
+			{ test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'url-loader?limit=10000&mimetype=application/font-woff&name=[name].[ext]&outputPath=fonts' },
+	        { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, use: 'file-loader?name=[name].[ext]&outputPath=fonts/' },
+	        //image loaders
+	        { test: /\.(jpe?g|png|gif|svg)$/i, loaders: [
+            'file-loader?name=[name].[ext]&outputPath=images/',
+            'image-webpack-loader'
+        ]},
 	        // {test: /\.ejs$/,
 	        //       use: [{
 	        //         loader: 'render-template-loader',
@@ -53,12 +58,12 @@ module.exports = {
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-      		template: 'ejs-simple-loader?title=Hello!./src/index.ejs',
+      		template: 'ejs-simple-loader?title=MaharajaAcademy-Home&home=active!./src/index.ejs',
       		filename: 'index.html',
-      		title: 'Hello'
-      		// minify: {
-      		// 	collapseWhitespace: true
-      		// }
+      		title: 'Hello',
+      		minify: {
+      			collapseWhitespace: true
+      		}
 		}),
 		// new HtmlWebpackPlugin({
 		// 	title: 'Contact Page',
@@ -71,6 +76,7 @@ module.exports = {
 			disable: !isProd,
 			allChunks: true
 		}),
+		//hot Module Replacement
 		new webpack.NamedModulesPlugin(),
 	    new webpack.HotModuleReplacementPlugin()
 	]
