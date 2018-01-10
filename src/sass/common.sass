@@ -1,4 +1,5 @@
 @import './modules/palette'
+@import url('https://fonts.googleapis.com/css?family=Satisfy')
 
 .background-secondary
 	background: $secondary-color
@@ -17,3 +18,31 @@
 
 .bolder
 	font-weight: bolder
+
+.medium-text-size
+	font-size: 1.2em
+
+.cursive-text
+	font-family: 'Satisfy', cursive
+
+#navbar
+	background: white
+	ul
+		li
+			a
+				color: $secondary-text-color
+		.active
+			a
+				color: $primary-color
+
+blockquote
+	font-style: italic
+
+.italics
+	font-style: italic
+
+.page-header
+	border-bottom: 1px solid $divider-color
+
+.text-muted
+	color: $secondary-text-color

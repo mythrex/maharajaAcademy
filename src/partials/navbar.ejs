@@ -1,20 +1,24 @@
-<nav class="background-primary">
+<nav id="navbar" class="background-primary">
   <div class="nav-wrapper">
-    <a href="#" class="brand-logo">Maharaja Academy</a>
-    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <a href="#" class="brand-logo primary-color">Maharaja Academy</a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons primary-color">menu</i></a>
     <ul class="right hide-on-med-and-down">
-      <li <% if (home) {%>
+      <li <% if (activePage=='home') {%>
+        class='active'
+      <%}%> > <a href="index.html">Home</a></li>
+      <li <% if (activePage=='about') {%>
         class="active"
-      <% } %> ><a href="index.html">Home</a></li>
-      <li><a href="badges.html">Components</a></li>
+      <%}%> ><a href="aboutUs.html">About Us</a></li>
       <li><a href="collapsible.html">Javascript</a></li>
       <li><a href="mobile.html">Mobile</a></li>
     </ul>
     <ul class="side-nav" id="mobile-demo">
-      <li <% if (home) {%>
+      <li <% if (activePage=='home') {%>
         class="active"
-      <% } %> ><a href="index.html">Home</a></li>
-      <li><a href="badges.html">Components</a></li>
+      <%}%> ><a href="index.html">Home</a></li>
+      <li <% if (activePage=='about') {%>
+        class="active"
+      <%}%> ><a href="aboutUs.html">About Us</a></li>
       <li><a href="collapsible.html">Javascript</a></li>
       <li><a href="mobile.html">Mobile</a></li>
     </ul>
