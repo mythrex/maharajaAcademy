@@ -1,4 +1,3 @@
-
 //images
 const Shivam = require('./images/profile_pic/shivamKaushik.jpeg');
 const Goswami = require('./images/profile_pic/goswami.jpeg');

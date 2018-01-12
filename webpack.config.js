@@ -17,6 +17,7 @@ module.exports = {
 		app: './src/app.js',
 		home: './src/home.js',
 		aboutUs: './src/aboutUs.js',
+		gallery: './src/gallery.js'
 	},
 	output: {
 		path: path.resolve(__dirname,'dist'),
@@ -65,7 +66,7 @@ module.exports = {
       		minify: {
       			collapseWhitespace: true
       		},
-      		excludeChunks: ['aboutUs'],
+      		excludeChunks: ['aboutUs','gallery'],
 		}),
 		new HtmlWebpackPlugin({
       		template: 'ejs-simple-loader?title=MaharajaAcademy-AboutUs&activePage=about!./src/aboutUs.ejs',
@@ -73,7 +74,15 @@ module.exports = {
       		minify: {
       			collapseWhitespace: true
       		},
-      		excludeChunks: ['home'],
+      		excludeChunks: ['home','gallery'],
+		}),
+		new HtmlWebpackPlugin({
+      		template: 'ejs-simple-loader?title=MaharajaAcademy-Gallery&activePage=gallery!./src/gallery.ejs',
+      		filename: 'gallery.html',
+      		minify: {
+      			collapseWhitespace: true
+      		},
+      		excludeChunks: ['home','aboutUs'],
 		}),
 
 		new ExtractTextPlugin({

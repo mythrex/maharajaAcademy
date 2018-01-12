@@ -9,8 +9,10 @@
       <li <% if (activePage=='about') {%>
         class="active"
       <%}%> ><a href="aboutUs.html">About Us</a></li>
-      <li><a href="collapsible.html">Javascript</a></li>
-      <li><a href="mobile.html">Mobile</a></li>
+      <li <% if (activePage=='gallery') {%>
+        class="active"
+      <%}%>><a href="gallery.html"><span class="material-icons">panorama</span> Gallery</a></li>
+      <li><a class="waves-effect waves-light btn background-secondary" href="http://app.procut.com">Log-in/Sign-up</a></li>
     </ul>
     <ul class="side-nav" id="mobile-demo">
       <li <% if (activePage=='home') {%>
@@ -19,8 +21,10 @@
       <li <% if (activePage=='about') {%>
         class="active"
       <%}%> ><a href="aboutUs.html">About Us</a></li>
-      <li><a href="collapsible.html">Javascript</a></li>
-      <li><a href="mobile.html">Mobile</a></li>
+      <li <% if (activePage=='gallery') {%>
+        class="active"
+      <%}%> ><a href="gallery.html"><span class="material-icons">panorama</span> Gallery</a></li>
+      <li><a class="waves-effect waves-light btn background-secondary" href="http://app.procut.com">Log-in/Sign-up</a></li>
     </ul>
   </div>
 </nav>
