@@ -17,7 +17,8 @@ module.exports = {
 		app: './src/app.js',
 		home: './src/home.js',
 		aboutUs: './src/aboutUs.js',
-		gallery: './src/gallery.js'
+		gallery: './src/gallery.js',
+		displayBoard: './src/displayBoard.js'
 	},
 	output: {
 		path: path.resolve(__dirname,'dist'),
@@ -26,31 +27,13 @@ module.exports = {
 	module: {
 		rules: [
 			{test: /\.sass$|\.scss$|\.css$/, use: cssConfig},
-			{ test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'url-loader?limit=10000&mimetype=application/font-woff&name=[name].[ext]&outputPath=fonts/' },
+			{ test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'url-loader?limit=1000000&mimetype=application/font-woff&name=[name].[ext]&outputPath=fonts/' },
 	        { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, use: 'file-loader?name=[name].[ext]&outputPath=fonts/' },
 	        //image loaders
 	        { test: /\.(jpe?g|png|gif|svg)$/i, loaders: [
             'file-loader?name=[name].[ext]&outputPath=images/',
             'image-webpack-loader'
         ]},
-	        // {test: /\.ejs$/,
-	        //       use: [{
-	        //         loader: 'render-template-loader',
-	        //         options: {
-	        //           engine: 'ejs',
-	        //           locals: {
-	        //             title: 'Maharaja Academy',
-	        //             home: 'Home',
-	        //             gallery: 'Gallery'
-	        //           },
-	        //           engineOptions: function (info) {
-	        //             // Ejs wants a filename for partials rendering.
-	        //             // (Configuring a "views" option can also be done.)
-	        //             return { filename: info.filename }
-	        //           }
-	        //         }
-	        //       }]
-	        // },
 		]
 	},
 	devServer: {
@@ -66,7 +49,7 @@ module.exports = {
       		minify: {
       			collapseWhitespace: true
       		},
-      		excludeChunks: ['aboutUs','gallery'],
+      		chunks: ['app','home'],
 		}),
 		new HtmlWebpackPlugin({
       		template: 'ejs-simple-loader?title=MaharajaAcademy-AboutUs&activePage=about!./src/aboutUs.ejs',
@@ -74,7 +57,7 @@ module.exports = {
       		minify: {
       			collapseWhitespace: true
       		},
-      		excludeChunks: ['home','gallery'],
+      		chunks: ['app','aboutUs'],
 		}),
 		new HtmlWebpackPlugin({
       		template: 'ejs-simple-loader?title=MaharajaAcademy-Gallery&activePage=gallery!./src/gallery.ejs',
@@ -82,9 +65,16 @@ module.exports = {
       		minify: {
       			collapseWhitespace: true
       		},
-      		excludeChunks: ['home','aboutUs'],
+      		chunks: ['app','gallery'],
 		}),
-
+		new HtmlWebpackPlugin({
+      		template: 'ejs-simple-loader?title=MaharajaAcademy-DisplayBoard Get Anoouncements,Study Material,Tips&activePage=displayBoard!./src/displayBoard.ejs',
+      		filename: 'displayBoard.html',
+      		minify: {
+      			collapseWhitespace: true
+      		},
+      		chunks: ['app','displayBoard'],
+		}),
 		new ExtractTextPlugin({
 			filename: 'app.css',
 			disable: !isProd,
