@@ -1,0 +1,45 @@
+[
+	{
+		"video_url" : "https://www.youtube.com/embed/LFKVKshX5tQ?list=PLN_VEYjh8gCByLq9iBB_yP4Qyhh95DMyH",
+		"name": "Can I Still Eat This?",
+		"author" : "Reactions",
+		"channel-link": "https://www.youtube.com/channel/UCdJ9oJ2GUF8Vmb-G63ldGWg",
+		"description": "An estimated 133 billion pounds of food gets thrown into the trash every year in the United States, so understanding when your food goes bad is important to help reduce waste. Unfortunately, consumers can’t just check the expiration date on the packaging, because the listed date rarely coincides with when the food actually spoils. So how can you tell if your food is still safe to eat? This week, Reactions talks food expiration-date misconceptions and gives you some guidelines to answer that age-old question: Can I still eat this? "
+	},
+	{
+		"video_url" : "https://www.youtube.com/embed/LgrXd0NM2y8?list=PLN_VEYjh8gCByLq9iBB_yP4Qyhh95DMyH",
+		"name": "What the Fahrenheit?!",
+		"author" : "Veritasium",
+		"channel-link": "https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA",
+		"description": "As an Australian-Canadian the Fahrenheit temperature scale always seemsed a bit arbitrary. I mean why does water freeze at 32 degrees? And what exactly does zero represent? According to many sources the Fahrenheit scale was defined by setting zero degrees equal to the temperature of an ice, salt, and water mixture and 100 degrees being roughly equal to human body temperature. But that isn’t true. The real story is much more interesting, and scientific... August 14th 1701 was almost certainly the worst day in the life of fifteen year-old Daniel Gabriel Fahrenheit. On that day both of his parents died suddenly from mushroom poisoning. He was sent from Poland, where he lived, to Amsterdam to become an apprentice bookkeeper."
+	},
+	{
+		"video_url" : "https://www.youtube.com/embed/WiTgn5QH_HU?list=PLN_VEYjh8gCByLq9iBB_yP4Qyhh95DMyH",
+		"name": "Why do we feel nostalgia? - Clay Routledge",
+		"author" : "TED-Ed",
+		"channel-link": "https://www.youtube.com/channel/UCsooa4yRKGN_zEE8iknghZA",
+		"description": "Nostalgia was once considered an illness confined to specific groups of people. Today, people all over the world report experiencing and enjoying nostalgia. But how does nostalgia work? And is it healthy? Clay Routledge details the way our understanding of nostalgia has changed since the term was first coined in the late 17th century. "
+	},
+	{
+		"video_url" : "https://www.youtube.com/embed/GXRouroc_ZY?list=PLN_VEYjh8gCByLq9iBB_yP4Qyhh95DMyH",
+		"name": "What's the Difference Between Baking Powder and Baking Soda?",
+		"author" : "SciShow",
+		"channel-link": "https://www.youtube.com/channel/UCZYTClx2T1of7BRZ86-8fow",
+		"description": "Powder vs. Soda: an important distinction!"
+	},
+	{
+		"video_url" : "https://www.youtube.com/embed/JSEQvyjACyA?list=PLN_VEYjh8gCByLq9iBB_yP4Qyhh95DMyH",
+		"name": "How Do Insects Survive the Winter?",
+		"author" : "SciShow",
+		"channel-link": "https://www.youtube.com/channel/UCZYTClx2T1of7BRZ86-8fow",
+		"description": "Birds fly south, humans bundle up, but what do insects do to survive the winter? From creating antifreeze-like alcohols to burrowing in the ground, bugs have a few solutions to carry on."
+	},
+	{
+		"video_url" : "https://www.youtube.com/embed/uCsD3ZGzMgE?list=PLN_VEYjh8gCByLq9iBB_yP4Qyhh95DMyH",
+		"name": "The Josephus Problem - Numberphile",
+		"author" : "Numberphile",
+		"channel-link": "https://www.youtube.com/channel/UCZYTClx2T1of7BRZ86-8fow",
+		"description": "The Josephus Problem, featuring Daniel Erman from University of Wisconsin-Madison. Winning at Dots and Boxes: https://youtu.be/KboGyIilP6k"
+	}
+]
+

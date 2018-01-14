@@ -22,16 +22,16 @@ module.exports = {
 	},
 	output: {
 		path: path.resolve(__dirname,'dist'),
-		filename: '[name].bundle.js'
+		filename: '[name].[hash].bundle.js'
 	},
 	module: {
 		rules: [
 			{test: /\.sass$|\.scss$|\.css$/, use: cssConfig},
-			{ test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'url-loader?limit=1000000&mimetype=application/font-woff&name=[name].[ext]&outputPath=fonts/' },
-	        { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, use: 'file-loader?name=[name].[ext]&outputPath=fonts/' },
+			{ test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'url-loader?limit=1000000&mimetype=application/font-woff&name=[name].[hash].[ext]&outputPath=fonts/' },
+	        { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, use: 'file-loader?name=[name].[hash].[ext]&outputPath=fonts/' },
 	        //image loaders
 	        { test: /\.(jpe?g|png|gif|svg)$/i, loaders: [
-            'file-loader?name=[name].[ext]&outputPath=images/',
+            'file-loader?name=[name].[hash].[ext]&outputPath=images/',
             'image-webpack-loader'
         ]},
 		]
@@ -76,9 +76,9 @@ module.exports = {
       		chunks: ['app','displayBoard'],
 		}),
 		new ExtractTextPlugin({
-			filename: 'app.css',
+			filename: 'app.[hash].css',
 			disable: !isProd,
-			allChunks: true
+			allChunks: true,
 		}),
 		//hot Module Replacement
 		new webpack.NamedModulesPlugin(),

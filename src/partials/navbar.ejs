@@ -15,8 +15,12 @@
           <%}%> ><a href="aboutUs.html">About Us</a></li>
 
           <li <% if (activePage=='gallery') {%>
-            class="center active"
+            class="active"
           <%}%>><a href="gallery.html"><span class="material-icons">panorama</span> Gallery</a></li>
+          
+          <li <% if (activePage=='displayBoard') {%>
+            class="active"
+          <%}%>><a href="displayBoard.html"><span class="material-icons">assignment</span> Display Board <span class="new badge"></span></a></li>
 
           <li class="center"><a class="waves-effect waves-light btn background-secondary" href="https://app.proctur.com/" style="color: White;" target="_blank">Log-in/Sign-up</a></li>
 
@@ -34,6 +38,10 @@
           <li <% if (activePage=='gallery') {%>
             class="active"
           <%}%> ><a href="gallery.html"><span class="material-icons">panorama</span> Gallery</a></li>
+
+          <li <% if (activePage=='displayBoard') {%>
+            class="active"
+          <%}%>><a href="displayBoard.html"><span class="material-icons">assignment</span> Display Board <span class="new badge"></span></a></li>
 
           <li class="center"><a class="waves-effect waves-light btn background-secondary" href="https://app.proctur.com/" style="color: White;" target="_blank">Log-in/Sign-up</a></li>
         </ul>
