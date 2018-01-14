@@ -7,7 +7,7 @@ const RelLife = require('./images/Relation of concepts to real life.png');
 const Neeraj = require('./images/reviews/Neeraj.png');
 const Amit = require('./images/reviews/Amit.png');
 const Himanshu = require('./images/reviews/Himanshu.png');
-const Rahul = require('./images/reviews/Rahul.JPG');
+const Rahul = require('./images/reviews/Rahul.jpg');
 const Sudhanshu = require('./images/reviews/Sudhanshu.png');
 //sections
 const LatestTechImg = require('./images/Updates_on_Laptop.png');

@@ -1,5 +1,30 @@
+@import "modules/mixins"
+@import "modules/vars"
+//mobile
 .carousel
-	min-height: 700px
+	min-height: 1620px
+
+	@media (min-width: 400px) and (max-width: 499px)
+		min-height: 1850px
+	
+	@media (min-width: 500px) and (max-width: 549px)
+		min-height: 1950px
+
+	@media (min-width: 550px) and (max-width: 599px)
+		min-height: 2050px
+
+	@include tablet
+		min-height: 1200px
+
+	@include desktop
+		min-height: 800px
+		
+	@include large-desktop
+		min-height: 800px
+	
+//tablet
+
+//
 
 .card
 	.card-title

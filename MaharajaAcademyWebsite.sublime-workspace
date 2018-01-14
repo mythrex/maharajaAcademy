@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"min",
+				"min-height"
+			],
+			[
+				"inc",
+				"include\t@include"
+			],
+			[
 				"imp",
 				"import\t@import"
 			],
@@ -47,15 +55,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "webpack.config.js",
-			"settings":
-			{
-				"buffer_size": 3112,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -64,13 +63,21 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
+		"height": 355.0,
 		"last_filter": "ter",
 		"selected_items":
 		[
 			[
 				"ter",
 				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"to do",
+				"Set Syntax: ToDone"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
 			],
 			[
 				"pack",
@@ -82,10 +89,6 @@
 			],
 			[
 				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"insta",
 				"Package Control: Install Package"
 			],
 			[
@@ -145,28 +148,31 @@
 	},
 	"expanded_folders":
 	[
-		"/home/mythrex/Coding/Maharaja Academy Website",
-		"/home/mythrex/Coding/Maharaja Academy Website/src",
-		"/home/mythrex/Coding/Maharaja Academy Website/src/sass"
+		"/home/mythrex/Coding/Maharaja Academy Website"
 	],
 	"file_history":
 	[
-		"/home/mythrex/Coding/Maharaja Academy Website/src/gallery.ejs",
-		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/gallery.sass",
-		"/home/mythrex/Coding/Maharaja Academy Website/src/gallery.js",
-		"/home/mythrex/Coding/Maharaja Academy Website/src/app.js",
-		"/home/mythrex/Coding/Maharaja Academy Website/src/aboutUs.js",
-		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/common.sass",
-		"/home/mythrex/Coding/Maharaja Academy Website/src/partials/navbar.ejs",
-		"/home/mythrex/Coding/Maharaja Academy Website/src/aboutUs.ejs",
-		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/about.sass",
-		"/home/mythrex/Coding/Maharaja Academy Website/webpack.config.js",
-		"/home/mythrex/Coding/Maharaja Academy Website/src/index.ejs",
-		"/home/mythrex/Coding/Maharaja Academy Website/src/aboutus.js",
-		"/home/mythrex/Coding/Maharaja Academy Website/src/home.js",
-		"/home/mythrex/Coding/Maharaja Academy Website/src/partials/reviews.ejs",
-		"/home/mythrex/Coding/Maharaja Academy Website/src/partials/footer.ejs",
 		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/home.sass",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/common.sass",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/app.js",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/gallery.ejs",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/about.sass",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/partials/reviews.ejs",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/index.ejs",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/modules/_mixins.sass",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/modules/_vars.sass",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/modules/_palette.sass",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/partials/navbar.ejs",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/home.js",
+		"/home/mythrex/Coding/Maharaja Academy Website/MaharajaAcademyWebsite.sublime-project",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/gallery.js",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/images/Visualisation is always great.png",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/partials/footer.ejs",
+		"/home/mythrex/Coding/Maharaja Academy Website/webpack.config.js",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/gallery.sass",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/aboutUs.js",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/aboutUs.ejs",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/aboutus.js",
 		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/modules/palette.sass",
 		"/home/mythrex/Coding/Maharaja Academy Website/src/partials/home.ejs",
 		"/home/mythrex/Coding/Webpack/src/contact.html",
@@ -188,7 +194,6 @@
 		"/home/mythrex/Coding/Maharaja Academy Website/src/js/materialize.config.js",
 		"/home/mythrex/Coding/Maharaja Academy Website/materialize.config.scss",
 		"/home/mythrex/Coding/Maharaja Academy Website/materialize.config.js",
-		"/home/mythrex/Coding/Maharaja Academy Website/MaharajaAcademyWebsite.sublime-project",
 		"/home/mythrex/Coding/Webpack/package.json",
 		"/home/mythrex/Coding/Webpack/src/app.js",
 		"/home/mythrex/Coding/Webpack/src/css/app.scss",
@@ -220,6 +225,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"href=\"https://app.proctur.com/\"",
 			"gallery",
 			"http://via.placeholder.com/350x150",
 			"text",
@@ -249,52 +255,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "webpack.config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3112,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								423,
-								423
-							]
-						],
-						"settings":
-						{
-							"color_helper.box_height": 18,
-							"color_helper.color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.preview_meta":
-							{
-							},
-							"color_helper.scan":
-							{
-								"current_ext": ".js",
-								"current_syntax": "zzz A File Icon zzz/aliases/JavaScript (Webpack)",
-								"enabled": false,
-								"last_updated": 1515765146.29
-							},
-							"syntax": "Packages/zzz A File Icon zzz/aliases/JavaScript (Webpack).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
