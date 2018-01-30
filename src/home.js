@@ -13,6 +13,7 @@ const Sudhanshu = require('./images/reviews/Sudhanshu.png');
 const LatestTechImg = require('./images/Updates_on_Laptop.png');
 const Stressed = require('./images/Stressed.png');
 //document ready\
+const $ = require('./app.js');
 
 $(function () {
 	$(".button-collapse").sideNav();
@@ -21,6 +22,7 @@ $(function () {
 		duration: 200
 	});
 	$('.parallax').parallax();
+	$('.modal').modal();
 
 	var imgAOC = $('#img-aoc');
 	imgAOC.attr('src',AOC);

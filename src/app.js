@@ -1,7 +1,6 @@
 const jquery = require('jquery');
-const materializeCss = require('materialize-css');
-const materializeLoader = require('materialize-loader!./materialize_config/materialize.config.js');
-const materializeConfigSCSS = require('./materialize_config/materialize.config.scss');
+const materializeCss = require('./css/materialize.min.css');
+const materializeJS = require('./js/materialize.min.js');
 const commonStyle = require('./sass/common.sass');
 const homeStyle = require('./sass/home.sass');
 const galleryStyle = require('./sass/gallery.sass');
@@ -12,3 +11,4 @@ const NavbarBrandLogo = require('./images/Website_Navbar_Logo.png')
 $(function () {
 	$('#navbar-brand-logo').attr('src',NavbarBrandLogo);
 })
+module.exports = $;

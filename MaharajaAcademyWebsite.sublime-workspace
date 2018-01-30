@@ -64,14 +64,12 @@
 	"buffers":
 	[
 		{
-			"contents": "[./src/displayBoard.js] ./src/displayBoard.js 884 bytes {4} [built]                                                                                                       \n[./src/gallery.js] ./src/gallery.js 484 bytes {3} [built]                                                                                                                 \n[./src/home.js] ./src/home.js 1.72 kB {1} [built]                                                                                                                         \n[./src/images/profile_pic/shivamKaushik.jpeg] ./src/images/profile_pic/shivamKaushik.jpeg 71 bytes {2} [built]                                                            \n[./src/images/reviews/Amit.png] ./src/images/reviews/Amit.png 61 bytes {1} [built]                                                                                        \n[./src/images/reviews/Himanshu.png] ./src/images/reviews/Himanshu.png 65 bytes {1} [built]                                                                                \n[./src/images/reviews/Neeraj.png] ./src/images/reviews/Neeraj.png 63 bytes {1} [built]                                                                                    \n[./src/images/reviews/Rahul.jpg] ./src/images/reviews/Rahul.jpg 62 bytes {1} [built]                                                                                      \n[./src/images/reviews/Sudhanshu.png] ./src/images/reviews/Sudhanshu.png 66 bytes {1} [built]                                                                              \n[./src/images/wallpaper.jpg] ./src/images/wallpaper.jpg 66 bytes {1} [built]                                                                                              \n[./src/materialize_config/materialize.config.scss] ./src/materialize_config/materialize.config.scss 41 bytes {0} [built]                                                  \n[./src/sass/common.sass] ./src/sass/common.sass 41 bytes {0} [built]                                                                                                      \n    + 36 hidden modules                                                                                                                                                   \nChild html-webpack-plugin for \"index.html\":                                                                                                                               \n     1 asset                                                                                                                                                              \n    [./node_modules/ejs-simple-loader/index.js?title=MaharajaAcademy-Home&activePage=home!./src/index.ejs] ./node_modules/ejs-simple-loader?title=MaharajaAcademy-Home&act\nivePage=home!./src/index.ejs 12.1 kB {0} [built]                                                                                                                          \nChild html-webpack-plugin for \"aboutUs.html\":                                                                                                                             \n     1 asset                                                                                                                                                              \n    [./node_modules/ejs-simple-loader/index.js?title=MaharajaAcademy-AboutUs&activePage=about!./src/aboutUs.ejs] ./node_modules/ejs-simple-loader?title=MaharajaAcademy-Ab\noutUs&activePage=about!./src/aboutUs.ejs 7.35 kB {0} [built]                                                                                                              \nChild html-webpack-plugin for \"gallery.html\":                                                                                                                             \n     1 asset                                                                                                                                                              \n    [./node_modules/ejs-simple-loader/index.js?title=MaharajaAcademy-Gallery&activePage=gallery!./src/gallery.ejs] ./node_modules/ejs-simple-loader?title=MaharajaAcademy-\nGallery&activePage=gallery!./src/gallery.ejs 7.21 kB {0} [built]                                                                                                          \nChild html-webpack-plugin for \"displayBoard.html\":                                                                                                                        \n     1 asset                                                                                                                                                              \n    [./node_modules/ejs-simple-loader/index.js?title=MaharajaAcademy-DisplayBoard Get Anoouncements,Study Material,Tips&activePage=displayBoard!./src/displayBoard.ejs] ./\nnode_modules/ejs-simple-loader?title=MaharajaAcademy-DisplayBoard Get Anoouncements,Study Material,Tips&activePage=displayBoard!./src/displayBoard.ejs 6.05 kB {0} [built]\nChild extract-text-webpack-plugin ../Maharaja Academy Website/node_modules/extract-text-webpack-plugin/dist ../Maharaja Academy Website/node_modules/css-loader/index.js!.\n./Maharaja Academy Website/node_modules/sass-loader/lib/loader.js!../Maharaja Academy Website/src/materialize_config/materialize.config.scss:                             \n    [./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/materialize_config/materialize.config.scss] ./node_modules/css-loader!./node_module\ns/sass-loader/lib/loader.js!./src/materialize_config/materialize.config.scss 166 bytes {0} [built]                                                                        \n        + 1 hidden module                                                                                                                                                 \nChild extract-text-webpack-plugin ../Maharaja Academy Website/node_modules/extract-text-webpack-plugin/dist ../Maharaja Academy Website/node_modules/css-loader/index.js!.\n./Maharaja Academy Website/node_modules/sass-loader/lib/loader.js!../Maharaja Academy Website/src/sass/gallery.sass:                                                      \n    [./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/sass/gallery.sass] ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.\njs!./src/sass/gallery.sass 201 bytes {0} [built]                                                                                                                          \n        + 1 hidden module                                                                                                                                                 \nChild extract-text-webpack-plugin ../Maharaja Academy Website/node_modules/extract-text-webpack-plugin/dist ../Maharaja Academy Website/node_modules/css-loader/index.js!.\n./Maharaja Academy Website/node_modules/sass-loader/lib/loader.js!../Maharaja Academy Website/src/sass/common.sass:                                                       \n    [./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/sass/common.sass] ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.j\ns!./src/sass/common.sass 851 bytes {0} [built]                                                                                                                            \n        + 1 hidden module                                                                                                                                                 \nChild extract-text-webpack-plugin ../Maharaja Academy Website/node_modules/extract-text-webpack-plugin/dist ../Maharaja Academy Website/node_modules/css-loader/index.js!.\n./Maharaja Academy Website/node_modules/sass-loader/lib/loader.js!../Maharaja Academy Website/src/sass/home.sass:                                                         \n    [./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/sass/home.sass] ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!\n./src/sass/home.sass 662 bytes {0} [built]                                                                                                                                \n        + 1 hidden module                                                                                                                                                 \nmythrex@mythrex-Vostro-3546:~/Coding/Maharaja Academy Website$                                                                                                            \n",
+			"file": "src/app.js",
 			"settings":
 			{
-				"buffer_size": 8550,
-				"line_ending": "Unix",
-				"name": "Terminal (bash)",
-				"read_only": true,
-				"scratch": true
+				"buffer_size": 512,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -167,16 +165,16 @@
 	},
 	"expanded_folders":
 	[
-		"/home/mythrex/Coding/Maharaja Academy Website",
-		"/home/mythrex/Coding/Maharaja Academy Website/src"
+		"/home/mythrex/Coding/Maharaja Academy Website"
 	],
 	"file_history":
 	[
+		"/home/mythrex/Coding/Maharaja Academy Website/webpack.config.js",
+		"/home/mythrex/Coding/Maharaja Academy Website/src/displayBoard.ejs",
+		"/home/mythrex/Coding/Maharaja Academy Website/.htaccess",
 		"/home/mythrex/Coding/Maharaja Academy Website/src/partials/navbar.ejs",
 		"/home/mythrex/Coding/Maharaja Academy Website/src/videos.json",
 		"/home/mythrex/Coding/Maharaja Academy Website/src/index.ejs",
-		"/home/mythrex/Coding/Maharaja Academy Website/src/displayBoard.ejs",
-		"/home/mythrex/Coding/Maharaja Academy Website/webpack.config.js",
 		"/home/mythrex/Coding/Maharaja Academy Website/src/displayBoard.js",
 		"/home/mythrex/Coding/Maharaja Academy Website/src/partials/footer.ejs",
 		"/home/mythrex/Coding/Maharaja Academy Website/src/sass/common.sass",
@@ -235,7 +233,7 @@
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -249,6 +247,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"material",
+			"[hash].",
+			"[chunkhash]",
 			"href=\"https://app.proctur.com/\"",
 			"gallery",
 			"http://via.placeholder.com/350x150",
@@ -268,6 +269,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"[hash]",
 			"1.3em"
 		],
 		"reverse": false,
@@ -284,507 +287,25 @@
 			[
 				{
 					"buffer": 0,
+					"file": "src/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8550,
+						"buffer_size": 512,
 						"regions":
 						{
-							"0,57":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										57,
-										58
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"0,59":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										59,
-										67
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"1,47":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										218,
-										219
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"1,49":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										220,
-										228
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"10,110":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1820,
-										1821
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"10,112":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1822,
-										1830
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"11,58":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1939,
-										1940
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"11,60":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1941,
-										1949
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"16,38":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										2774,
-										2775
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"16,40":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										2776,
-										2784
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"2,39":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										381,
-										382
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"2,41":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										383,
-										391
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"20,50":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										3470,
-										3471
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"20,52":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										3472,
-										3480
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"24,54":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										4158,
-										4159
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"24,56":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										4160,
-										4168
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"28,160":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										4948,
-										4949
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"28,162":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										4950,
-										4958
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"3,100":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										613,
-										614
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"3,102":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										615,
-										623
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"32,88":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										5560,
-										5561
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"32,90":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										5562,
-										5570
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"37,38":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										6365,
-										6366
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"37,40":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										6367,
-										6375
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"4,72":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										756,
-										757
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"4,74":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										758,
-										766
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"42,36":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										7218,
-										7219
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"42,38":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										7220,
-										7228
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"47,32":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										8069,
-										8070
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"47,34":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										8071,
-										8079
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"5,80":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										935,
-										936
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"5,82":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										937,
-										945
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"6,76":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1102,
-										1103
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"6,78":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1104,
-										1112
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"7,74":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1271,
-										1272
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"7,76":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1273,
-										1281
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"8,82":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1450,
-										1451
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"8,84":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1452,
-										1460
-									]
-								],
-								"scope": "terminalview.black_green"
-							},
-							"9,66":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1605,
-										1606
-									]
-								],
-								"scope": "terminalview.black_brown"
-							},
-							"9,68":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										1607,
-										1615
-									]
-								],
-								"scope": "terminalview.black_green"
-							}
 						},
 						"selection":
 						[
 							[
-								8442,
-								8442
+								512,
+								512
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"auto_complete_commit_on_tab": false,
-							"caret_style": "blink",
 							"color_helper.box_height": 17,
-							"color_helper.color_scheme": "Packages/User/TerminalView.hidden-tmTheme",
+							"color_helper.color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 							"color_helper.file_palette":
 							[
 							],
@@ -793,38 +314,15 @@
 							},
 							"color_helper.scan":
 							{
-								"current_ext": null,
-								"current_syntax": "Text/Plain text",
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
 								"enabled": false,
-								"last_updated": 1515945787.39
+								"last_updated": 1517061021.53
 							},
-							"color_scheme": "Packages/User/TerminalView.hidden-tmTheme",
-							"default_dir": "/home/mythrex/Coding/Maharaja Academy Website",
-							"draw_centered": false,
-							"draw_indent_guides": false,
-							"draw_white_space": "none",
-							"gutter": false,
-							"highlight_line": false,
-							"scroll_past_end": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"terminal_view": true,
-							"terminal_view_activate_args":
-							{
-								"cmd": "/bin/bash -l",
-								"cwd": "/home/mythrex/Coding/Maharaja Academy Website",
-								"keep_open": false,
-								"syntax": null,
-								"title": "Terminal (bash)"
-							},
-							"terminal_view_last_cursor_pos":
-							[
-								49,
-								63
-							],
-							"word_wrap": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 18.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -835,7 +333,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -872,7 +370,7 @@
 	"project": "MaharajaAcademyWebsite.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -881,6 +379,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"app",
+				"src/app.js"
+			]
 		],
 		"width": 0.0
 	},
