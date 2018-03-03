@@ -7,8 +7,10 @@ const galleryStyle = require('./sass/gallery.sass');
 //TODO: put it in home.js 
 // const homeJs = require('./home.js');
 const NavbarBrandLogo = require('./images/Website_Navbar_Logo.png')
+const favicon = require('./images/favicon.png')
 
 $(function () {
+	$(".button-collapse").sideNav();
 	$('#navbar-brand-logo').attr('src',NavbarBrandLogo);
 })
 module.exports = $;

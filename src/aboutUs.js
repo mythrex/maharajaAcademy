@@ -5,7 +5,6 @@ const Santraj = require('./images/profile_pic/santaraj.png');
 const Pankaj = require('./images/profile_pic/pankajThakur.jpeg');
 
 $(function () {
-	$(".button-collapse").sideNav();
 	
 	var imgShivam = $('#img-shivam');
 	imgShivam.attr('src',Shivam);

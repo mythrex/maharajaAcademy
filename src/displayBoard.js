@@ -5,20 +5,12 @@ function getRandomInt(max) {
 }
 
 $(function () {
-	var quote = $('#quote');
-	var quoteAuthor = $('#quote-author');
+	
 	var videoName = $('#video-name');
 	var videoDescription = $('#video-description');
 	var videoAuthor = $('#video-author');
 	var videoURL = $('#video-url');
 
-	$.get('http://quotes.rest/qod.json?category=inspire  ', function(data) {
-		var quoteText = data.contents.quotes.quote;
-		var authorText = data.contents.quotes.author;
-
-		quote.text(quoteText);
-		quoteAuthor.text(authorText);
-	});
 
 	var rNum = getRandomInt(videos.length);
 	var curVideo = videos[rNum];

@@ -15,7 +15,7 @@
     "ejs": "^2.5.7",
     "jquery": "^3.2.1",
     "materialize-css": "^0.100.2",
-	"webpack": "^3.10.0",
+  	"webpack": "^3.10.0",
     "materialize-loader": "^2.0.2"
   },
   "devDependencies": {
