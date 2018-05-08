@@ -40,6 +40,62 @@
 		"author" : "Numberphile",
 		"channel-link": "https://www.youtube.com/channel/UCZYTClx2T1of7BRZ86-8fow",
 		"description": "The Josephus Problem, featuring Daniel Erman from University of Wisconsin-Madison. Winning at Dots and Boxes: https://youtu.be/KboGyIilP6k"
+	},
+	{
+		"video_url" : "https://www.youtube.com/embed/2OSrvzNW9FE",
+		"name": "Surprising Applications of the Magnus Effect",
+		"author" : "Veritasium",
+		"channel-link": "https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA",
+		"description": "How far would a basketball with backspin go?"
+	},
+	{
+		"video_url" : "https://www.youtube.com/embed/R13BD8qKeTg",
+		"name": "The Bayesian Trap",
+		"author" : "Veritasium",
+		"channel-link": "https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA",
+		"description": "Bayes' theorem explained with examples and implications for life."
+	},
+	{
+		"video_url" : "https://www.youtube.com/embed/IcrBqCFLHIY",
+		"name": "How Does a Transistor Work?",
+		"author" : "Veritasium",
+		"channel-link": "https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA",
+		"description": "How does a transistor work? Our lives depend on this device."
+	},
+	{
+		"video_url" : "https://www.youtube.com/embed/Iuv6hY6zsd0",
+		"name": "The Original Double Slit Experiment",
+		"author" : "Veritasium",
+		"channel-link": "https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA",
+		"description": "Light is so common that we rarely think about what it really is. But just over two hundred years ago, a groundbreaking experiment answered the question that had occupied physicists for centuries. Is light made up of waves or particles?."
+	},
+	{
+		"video_url" : "https://www.youtube.com/embed/Ux33-5k8cjg",
+		"name": "Where Does The Sun Get Its Energy?",
+		"author" : "Veritasium",
+		"channel-link": "https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA",
+		"description": "The sun has been producing light for about five billion years but where does all its energy come from? The most common idea is that the sun is burning gas - like a giant fireball in the sky. If this were true, the sun would have gone out long ago. So how is the sun actually fuelling itself? It is converting its own mass into energy. By combining protons (the nucleus of hydrogen) into helium, it squeezes some mass into energy - 4.3 billion kg per second. It is Einstein's famous E=mc^2 which gives us the quantitative relationship between mass and energy, where c is the speed of light."
+	},
+	{
+		"video_url" : "https://www.youtube.com/embed/23f1jvGUWJs",
+		"name": "What Is The Magnus Force?",
+		"author" : "Veritasium",
+		"channel-link": "https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA",
+		"description": "Whenever an object spins through the air it experiences a 'Magnus Force' due to friction between the air and the object's surface. This force was originally identified while studying the trajectories of cannon balls (though earlier observations of this effect exist). The Magnus force is essential in most ball sports including golf, cricket, tennis, and baseball. At the end the ball demonstrations were conducted with a 100 mm diam polystyrene ball and the launcher was made by bending a long, thin, aluminum rod and bolting the ends to a block of wood as a handle. "
+	},
+	{
+		"video_url" : "https://www.youtube.com/embed/mezkHBPLZ4A",
+		"name": "What Is Gravity?",
+		"author" : "Veritasium",
+		"channel-link": "https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA",
+		"description": "People have a lot of different ideas about what gravity is: a downward force that stops you from flying off into space, an attraction smaller objects experience towards larger objects, or a mutual attraction between all masses. It is the last of these ideas that best reflects a scientific conception of gravity."
+	},
+	{
+		"video_url" : "https://www.youtube.com/embed/OwS9aTE2Go4?list=PL_YhNkAdSsYVF2CBHNgkBlgWb1T6W9jy-",
+		"name": "Transistors - The Invention That Changed The World.",
+		"author" : "Real Engineering",
+		"channel-link": "https://www.youtube.com/channel/UCR1IuLEqb6UEA_zQ81kwXfg",
+		"description": "" 
 	}
 ]
 
