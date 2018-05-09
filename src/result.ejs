@@ -8,6 +8,7 @@
 	<meta name="theme-color" content="#009688">
 	<link rel="icon" type="image/png" href="/images/favicon.png">
 	<title>Scholarship result</title>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
 
 <body>
@@ -150,7 +151,11 @@
 												<div class="heading">
 													<%= percentage %>%
 												</div>
-												<div class="subheading">Percentage</div>
+												<div class="subheading">Percentage
+													<p>You gained a total of <span class="bold">
+														<%= total_marks %>
+													</span> marks.</p>
+												</div>
 											</div>
 											<div class="special-card-icon">
 												<i class="material-icons">sentiment_neutral</i>

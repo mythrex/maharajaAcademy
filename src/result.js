@@ -1,5 +1,4 @@
 const ejs = require('./js/ejs');
-const charts = require('./js/charts-loader.js');
 const resultData = require('./scholarship_result.json');
 
 
@@ -29,6 +28,40 @@ function appendElements(curIndex){
 		var currentUser = resultData[curIndex];
 		currentUser["passingCriteria"] = passing_criteria;
 		var compiled = ejs.render($resultTemplate, currentUser);
-		$resultContainer.empty().append(compiled)
+		$resultContainer.empty().append(compiled);
+		makeChart(currentUser);
 	}
+}
+
+function makeChart(curUserObj) {
+	google.charts.load('current', {'packages':['corechart']});
+
+	// Set a callback to run when the Google Visualization API is loaded.
+	google.charts.setOnLoadCallback(drawChart);
+
+	// Callback that creates and populates a data table,
+	// instantiates the pie chart, passes in the data and
+	// draws it.
+	function drawChart() {
+
+	  // Create the data table.
+	  var data = new google.visualization.DataTable();
+	  data.addColumn('string', 'Marking');
+	  data.addColumn('number', 'Slices');
+	  data.addRows([
+	    ['Marks Gained', curUserObj["marks_gained"]],
+	    ['Negative Marking', curUserObj["marks_lost"]],
+	    ['Marks Unattempted', curUserObj["marks_unattempted"]],
+	  ]);
+
+	  // Set chart options
+	  var options = {'title':'Your Result',
+	                 'width':"100%",
+	                 'height':"300"};
+
+	  // Instantiate and draw our chart, passing in some options.
+	  var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+	  chart.draw(data, options);
+	}
+
 }
