@@ -7,6 +7,7 @@ $(function () {
 	$resultTemplate = $('#result-template').html();
 	$resultContainer = $('#result-container');
 	$optionsTemplate = $('#options-template').html();
+	$modal = $('.modal');
 
 	var compiledOptions = ejs.render($optionsTemplate, {resultData: resultData});
 	$studentSelect = $('#student-select');
@@ -19,7 +20,7 @@ $(function () {
 document.currentIndex = null;
 
 function inits() {
-	$('.modal').modal();
+	$modal.modal();
 	$('select').material_select();
 }
 
@@ -43,6 +44,7 @@ function appendElements(curIndex){
 function selectCurrentUser(e) {
 	document.currentIndex = +$studentSelect.val();
 	refreshDOM();
+	$modal.modal('close');
 }
 
 function makeChart(curUserObj) {
