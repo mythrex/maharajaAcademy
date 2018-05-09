@@ -7,11 +7,78 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta name="theme-color" content="#009688">
 	<link rel="icon" type="image/png" href="/images/favicon.png">
-	<title><%=title%></title>
+	<title>Scholarship result</title>
 </head>
 
 <body>
-	<% include partials/navbar.ejs %>
+	<!-- navbar -->
+	<nav id="navbar">
+	  <div class="nav-wrapper">
+	    <div class="container">
+	      <div class="row">
+	        <a href="/" class="brand-logo v-align"><img src="" alt="Logo" id="navbar-brand-logo" style="height: 55px; padding: 5px;"></a>
+	        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons primary-color">menu</i></a>
+	        <ul class="right hide-on-med-and-down">
+
+	          <li>
+	          	<a href="index.html"><span class="material-icons">home</span> Home</a>
+	          </li>
+
+	          <li>
+	          	<a href="aboutUs.html"><span class="material-icons">description</span> About Us</a>
+	          </li>
+
+	          <li>
+	          	<a href="gallery.html"><span class="material-icons">panorama</span> Gallery</a>
+	          </li>
+	          
+	          <li>
+	          	<a href="displayBoard.html"><span class="material-icons">assignment</span> Display Board</a>
+	          </li>
+
+	          <li class="active"><a href="result.html"><span class="material-icons">announcement</span> Results <span class="new badge"></span></a></li>
+
+	          <li>
+	            <a href="https://shivamkaushik73.wixsite.com/website" target="_blank">
+	              <span class="material-icons">star</span> Blog</span>
+	            </a>
+	          </li>
+
+	        </ul>
+	        <ul class="side-nav" id="mobile-demo">
+
+	          <li>
+	          	<a href="index.html"><span class="material-icons">home</span> Home</a>
+	          </li>
+
+	          <li>
+	          	<a href="aboutUs.html"><span class="material-icons">description</span> About Us</a>
+	          </li>
+
+	          <li>
+	          	<a href="gallery.html"><span class="material-icons">panorama</span> Gallery</a>
+	          </li>
+
+	          <li>
+	          	<a href="displayBoard.html"><span class="material-icons">assignment</span> Display Board</a>
+	          </li>
+
+	          <li class="active">
+	          	<a href="result.html"><span class="material-icons">announcement</span> Results <span class="new badge"></span></a>
+	          </li>
+
+	          <li>
+	            <a href="https://shivamkaushik73.wixsite.com/website" target="_blank">
+	              <span class="material-icons">star</span> Blog
+	            </a>
+	          </li>
+	          
+	        </ul>
+	      </div>
+	    </div>
+	  </div>
+	</nav>
+
 		<div class="fixed-action-btn">
 		  <a class="btn-floating btn-large modal-trigger" id="btn-search" href="#result-modal">
 		    <i class="large material-icons">search</i>
@@ -59,29 +126,61 @@
 						<!-- <p id="result-placeholder" class="flow-text medium text-muted">
 							Please click on search button to view your result.
 						</p> -->
-						
+
 						<div class="row">
 							<div class="col s12 m6 l3">
-								<div class="card">
-									<div class="card-content"></div>
+								<div class="card special-card background-secondary">
+									<div class="card-content">
+										<div class="special-card-text">
+											<div class="heading">2</div>
+											<div class="subheading">is your rank</div>
+										</div>
+										<div class="special-card-icon">
+											<i class="material-icons">star</i>
+										</div>
+									</div>
 								</div>
 							</div>
 
 							<div class="col s12 m6 l3">
-								<div class="card">
-									<div class="card-content"></div>
+								<div class="card special-card green">
+									<div class="card-content">
+										<div class="special-card-text">
+											<div class="heading">105</div>
+											<div class="subheading">Marks Gained</div>
+										</div>
+										<div class="special-card-icon">
+											<i class="material-icons">sentiment_very_satisfied</i>
+										</div>
+									</div>
 								</div>
 							</div>
 
 							<div class="col s12 m6 l3">
-								<div class="card">
-									<div class="card-content"></div>
+								<div class="card special-card red">
+									<div class="card-content">
+										<div class="special-card-text">
+											<div class="heading">56</div>
+											<div class="subheading">Marks Lost</div>
+										</div>
+										<div class="special-card-icon">
+											<i class="material-icons">sentiment_very_dissatisfied</i>
+										</div>
+									</div>
 								</div>
 							</div>
 
 							<div class="col s12 m6 l3">
-								<div class="card">
-									<div class="card-content"></div>
+								<div class="card special-card blue">
+									<div class="card-content">
+										<div class="special-card-text">
+											<div class="heading">13</div>
+											<div class="subheading">Marks Scored</div>
+										</div>
+										<div class="special-card-icon">
+											<i class="material-icons">sentiment_neutral</i>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>

@@ -15,12 +15,12 @@
     "ejs": "^2.5.7",
     "jquery": "^3.2.1",
     "materialize-css": "^0.100.2",
-  	"webpack": "^3.10.0",
+    "webpack": "^3.10.0",
     "materialize-loader": "^2.0.2"
   },
   "devDependencies": {
     "css-loader": "^0.28.7",
-    "ejs-loader": "^0.3.0",
+    "raw-loader": "^0.5.1",
     "ejs-simple-loader": "^0.1.1",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.6",

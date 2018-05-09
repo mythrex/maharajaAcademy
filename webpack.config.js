@@ -77,7 +77,7 @@ module.exports = {
       		chunks: ['app','displayBoard'],
 		}),
 		new HtmlWebpackPlugin({
-      		template: 'ejs-simple-loader?title=Scholarship test Results Announced&activePage=result!./src/result.ejs',
+      		template: '!!raw-loader!./src/result.ejs',
       		filename: 'result.html',
       		minify: {
       			collapseWhitespace: true
