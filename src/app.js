@@ -4,6 +4,7 @@ const materializeJS = require('./js/materialize.min.js');
 const commonStyle = require('./sass/common.sass');
 const homeStyle = require('./sass/home.sass');
 const galleryStyle = require('./sass/gallery.sass');
+const resultStyle = require('./sass/result.sass');
 //TODO: put it in home.js 
 // const homeJs = require('./home.js');
 const NavbarBrandLogo = require('./images/Website_Navbar_Logo.png')

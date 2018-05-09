@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="theme-color" content="#009688">
+	<link rel="icon" type="image/png" href="/images/favicon.png">
+	<title><%=title%></title>
+</head>
+
+<body>
+	<% include partials/navbar.ejs %>
+		<div class="fixed-action-btn">
+		  <a class="btn-floating btn-large modal-trigger" id="btn-search" href="#result-modal">
+		    <i class="large material-icons">search</i>
+		  </a>
+		</div>
+
+		<!-- Modal Structure -->
+		  <div id="result-modal" class="modal">
+		    <div class="modal-content">
+		      <h5 class="text-muted">Select your name</h5>
+		      <div class="row">
+		      	<div class="input-field col s12">
+		      	    <select>
+		      	      <option value="" disabled selected>Choose your name</option>
+		      	      <option value="1">Option 1</option>
+		      	      <option value="2">Option 2</option>
+		      	    </select>
+		      	    <label>Select from the List</label>
+		      	  </div>
+		      </div>
+		    </div>
+		    <div class="modal-footer">
+		    	<button class="btn waves-effect">Go</button>
+		    </div>
+		  </div>
+		
+
+		<section id="result-section">
+			
+			<div class="m-page-header">
+				<div class="container">
+					<div class="row">
+						<div class="col s12">
+							<h3>Scholarship Test Results</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<section class="section">
+				<div class="container">
+					<div class="row">
+						
+						<!--TODO Hide this on clicking search Button -->
+						<!-- <p id="result-placeholder" class="flow-text medium text-muted">
+							Please click on search button to view your result.
+						</p> -->
+						
+						<div class="row">
+							<div class="col s12 m6 l3">
+								<div class="card">
+									<div class="card-content"></div>
+								</div>
+							</div>
+
+							<div class="col s12 m6 l3">
+								<div class="card">
+									<div class="card-content"></div>
+								</div>
+							</div>
+
+							<div class="col s12 m6 l3">
+								<div class="card">
+									<div class="card-content"></div>
+								</div>
+							</div>
+
+							<div class="col s12 m6 l3">
+								<div class="card">
+									<div class="card-content"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col s12 m6">
+								<div class="card">
+									<div class="card-content"></div>
+								</div>
+							</div>
+
+							<div class="col s12 m6">
+								<div class="card">
+									<div class="card-content"></div>
+								</div>
+							</div>
+
+						</div>
+
+	
+					</div>
+				</div>
+			</section>
+
+			
+			      
+		</section>
+</body>
+</html>

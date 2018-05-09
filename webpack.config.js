@@ -18,7 +18,8 @@ module.exports = {
 		home: './src/home.js',
 		aboutUs: './src/aboutUs.js',
 		gallery: './src/gallery.js',
-		displayBoard: './src/displayBoard.js'
+		displayBoard: './src/displayBoard.js',
+		result: './src/result.js'
 	},
 	output: {
 		path: path.resolve(__dirname,'dist'),
@@ -74,6 +75,14 @@ module.exports = {
       			collapseWhitespace: true
       		},
       		chunks: ['app','displayBoard'],
+		}),
+		new HtmlWebpackPlugin({
+      		template: 'ejs-simple-loader?title=Scholarship test Results Announced&activePage=result!./src/result.ejs',
+      		filename: 'result.html',
+      		minify: {
+      			collapseWhitespace: true
+      		},
+      		chunks: ['app','result'],
 		}),
 		new ExtractTextPlugin({
 			filename: '[hash].css',
