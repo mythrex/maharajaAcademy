@@ -6,13 +6,17 @@ var passing_criteria = 55;
 $(function () {
 	$resultTemplate = $('#result-template').html();
 	$resultContainer = $('#result-container');
+	$optionsTemplate = $('#options-template').html();
 
-
+	var compiledOptions = ejs.render($optionsTemplate, {resultData: resultData});
+	$studentSelect = $('#student-select');
+	$studentSelect.append(compiledOptions);
 	inits();
+	$('#btn-select-current-user').click(selectCurrentUser);
 	refreshDOM();
 })
 
-document.currentIndex = 0;
+document.currentIndex = null;
 
 function inits() {
 	$('.modal').modal();
@@ -30,7 +34,15 @@ function appendElements(curIndex){
 		var compiled = ejs.render($resultTemplate, currentUser);
 		$resultContainer.empty().append(compiled);
 		makeChart(currentUser);
+	}else{
+		$resultContainer.empty().append('<p class="flow-text text-muted">Please click on search button to view your result.</p>');
 	}
+	
+}
+
+function selectCurrentUser(e) {
+	document.currentIndex = +$studentSelect.val();
+	refreshDOM();
 }
 
 function makeChart(curUserObj) {

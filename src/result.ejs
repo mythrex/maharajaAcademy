@@ -92,17 +92,19 @@
 		      <h5 class="text-muted">Select your name</h5>
 		      <div class="row">
 		      	<div class="input-field col s12">
-		      	    <select>
-		      	      <option value="" disabled selected>Choose your name</option>
-		      	      <option value="1">Option 1</option>
-		      	      <option value="2">Option 2</option>
+		      	    <select id="student-select">
 		      	    </select>
-		      	    <label>Select from the List</label>
+	      	      <script id="options-template" type="ejs-template">
+	      	      	<option value="null" disabled selected>Choose your name</option>
+	      	      	<% for(var i=0; i< resultData.length; i++){ %>
+	      	      		<option value="<%= i %>"><%= resultData[i].name %></option>
+	      	      	<% } %>
+	      	      </script>
 		      	  </div>
 		      </div>
 		    </div>
 		    <div class="modal-footer">
-		    	<button class="btn waves-effect">Go</button>
+		    	<button class="btn waves-effect" id="btn-select-current-user">Go</button>
 		    </div>
 		  </div>
 		
@@ -123,10 +125,10 @@
 				<div class="container" id="result-container">
 					<script id="result-template" type="ejs-template">
 						<div class="row">
-							<p id="result-placeholder" class="flow-text medium text-muted">
-								Please click on search button to view your result.
-							</p>
-
+							
+							<div class="col s12">
+								<p class="flow-text">Hi, <%= name %></p>
+							</div>
 							<div class="row">
 								<div class="col s12 m6 l3">
 									<div class="card special-card amber darken-2">
