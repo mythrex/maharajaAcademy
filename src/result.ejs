@@ -119,64 +119,77 @@
 			</div>
 
 			<section class="section">
-				<div class="container">
-					<div class="row">
-						
-						<!--TODO Hide this on clicking search Button -->
-						<!-- <p id="result-placeholder" class="flow-text medium text-muted">
-							Please click on search button to view your result.
-						</p> -->
-
+				<div class="container" id="result-container">
+					<script id="result-template" type="ejs-template">
 						<div class="row">
-							<div class="col s12 m6 l3">
-								<div class="card special-card background-secondary">
-									<div class="card-content">
-										<div class="special-card-text">
-											<div class="heading">2</div>
-											<div class="subheading">is your rank</div>
-										</div>
-										<div class="special-card-icon">
-											<i class="material-icons">star</i>
-										</div>
-									</div>
-								</div>
-							</div>
+							<p id="result-placeholder" class="flow-text medium text-muted">
+								Please click on search button to view your result.
+							</p>
 
-							<div class="col s12 m6 l3">
-								<div class="card special-card green">
-									<div class="card-content">
-										<div class="special-card-text">
-											<div class="heading">49%</div>
-											<div class="subheading">Percentage</div>
-										</div>
-										<div class="special-card-icon">
-											<i class="material-icons">sentiment_neutral</i>
+							<div class="row">
+								<div class="col s12 m6 l3">
+									<div class="card special-card amber darken-2">
+										<div class="card-content">
+											<div class="special-card-text">
+												<div class="heading">
+													<%= rank %>
+												</div>
+												<div class="subheading">is your rank</div>
+											</div>
+											<div class="special-card-icon">
+												<i class="material-icons">star</i>
+											</div>
 										</div>
 									</div>
 								</div>
+
+								<div class="col s12 m6 l3">
+									<div class="card special-card blue">
+										<div class="card-content">
+											<div class="special-card-text">
+												<div class="heading">
+													<%= percentage %>%
+												</div>
+												<div class="subheading">Percentage</div>
+											</div>
+											<div class="special-card-icon">
+												<i class="material-icons">sentiment_neutral</i>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col s12 m6">
+									<div class="card">
+										<div class="card-content" id="chart_div">
+										</div>
+									</div>
+								</div>
+
 							</div>
 
 							<div class="col s12 m6">
-								<div class="card">
-									<div class="card-content" id="chart_div">
-									</div>
-								</div>
+								<% if(percentage >= passingCriteria) {%>
+									<p class="flow-text">
+										You have <span class="green-text bold">passed</span> the scholarship test.
+									</p>
+									<p class="text-muted">
+										Contact Reception for more details.
+									</p>
+								<% } else{ %>
+									<p class="flow-text">
+										You have <span class="red-text bold">not passed</span> the scholarship test.
+									</p>
+									<p class="text-muted">
+										Better luck next time.
+									</p>
+								<% } %>
 							</div>
+							
 
-						</div>
-
-						<div class="col s12 m6">
-							<p class="flow-text">
-								You have <span class="green-text bold">passed</span> the scholarship test.
-							</p>
-							<p class="text-muted">
-								Contact Reception for more details.
-							</p>
-						</div>
 						
-
-	
-					</div>
+						</div>
+					</script>
 				</div>
 			</section>
 
