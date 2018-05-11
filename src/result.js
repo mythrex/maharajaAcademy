@@ -2,7 +2,7 @@ const ejs = require('./js/ejs');
 const resultData = require('./scholarship_result.json');
 
 
-var passing_criteria = 55; 
+var passing_criteria = 50;
 $(function () {
 	$resultTemplate = $('#result-template').html();
 	$resultContainer = $('#result-container');

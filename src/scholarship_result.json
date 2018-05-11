@@ -1,20 +1,10 @@
-[
-	{
-		"name": "Vijay",
-		"rank": 4,
-		"marks_gained": 80,
-		"marks_lost": 10,
-		"marks_unattempted": 10,  
-		"total_marks": 70,
-		"percentage": 70
-	},
-	{
-		"name": "Laxmi",
-		"rank": 2,
-		"marks_gained": 84,
-		"marks_lost": 10,
-		"marks_unattempted": 6,  
-		"total_marks": 74,
-		"percentage": 74
-	}
-]
+[{"rank":1,"name":"Vicky Pandey","marks_gained":62,"marks_lost":9,"marks_unattempted":10,"total_marks":62,"percentage":100},
+{"rank":2,"name":"Richa","marks_gained":44,"marks_lost":13,"marks_unattempted":15,"total_marks":44,"percentage":71},
+{"rank":3,"name":"Ashish Kataria","marks_gained":40,"marks_lost":22,"marks_unattempted":8,"total_marks":40,"percentage":65},
+{"rank":4,"name":"Nazia","marks_gained":36,"marks_lost":30,"marks_unattempted":2,"total_marks":36,"percentage":59},
+{"rank":5,"name":"Shaheen","marks_gained":32,"marks_lost":12,"marks_unattempted":22,"total_marks":32,"percentage":52},
+{"rank":6,"name":"Shashank Haritwal","marks_gained":28,"marks_lost":10,"marks_unattempted":26,"total_marks":28,"percentage":46},
+{"rank":7,"name":"Abhishek Aggarwal","marks_gained":24,"marks_lost":13,"marks_unattempted":25,"total_marks":24,"percentage":39},
+{"rank":8,"name":"Priya","marks_gained":24,"marks_lost":22,"marks_unattempted":16,"total_marks":24,"percentage":39},
+{"rank":9,"name":"Vandana Kumari","marks_gained":22,"marks_lost":27,"marks_unattempted":12,"total_marks":22,"percentage":36},
+{"rank":10,"name":"Sana Siddiqui","marks_gained":20,"marks_lost":22,"marks_unattempted":13,"total_marks":20,"percentage":33}]
