@@ -32,7 +32,7 @@
 	          <li>
 	          	<a href="gallery.html"><span class="material-icons">panorama</span> Gallery</a>
 	          </li>
-	          
+
 	          <li>
 	          	<a href="displayBoard.html"><span class="material-icons">assignment</span> Display Board</a>
 	          </li>
@@ -73,7 +73,7 @@
 	              <span class="material-icons">star</span> Blog
 	            </a>
 	          </li>
-	          
+
 	        </ul>
 	      </div>
 	    </div>
@@ -107,10 +107,10 @@
 		    	<button class="btn waves-effect" id="btn-select-current-user">Go</button>
 		    </div>
 		  </div>
-		
+
 
 		<section id="result-section">
-			
+
 			<div class="m-page-header">
 				<div class="container">
 					<div class="row">
@@ -125,7 +125,7 @@
 				<div class="container" id="result-container">
 					<script id="result-template" type="ejs-template">
 						<div class="row">
-							
+
 							<div class="col s12">
 								<p class="flow-text">Hi, <%= name %></p>
 							</div>
@@ -153,9 +153,9 @@
 												<div class="heading">
 													<%= percentage %>%
 												</div>
-												<div class="subheading">Percentile
+												<div class="subheading">Percentage
 													<p>You gained a total of <span class="bold">
-														<%= total_marks %>
+														<%= marks_gained %>
 													</span> marks.</p>
 												</div>
 											</div>
@@ -178,7 +178,7 @@
 							<div class="col s12 m6">
 								<% if(percentage >= passingCriteria) {%>
 									<p class="flow-text">
-										You have <span class="green-text bold">passed</span> the scholarship test.
+										<span class="green-text bold">Congratulations!</span>, you will get a concession of <%= concession %> percent in your fee.
 									</p>
 									<p class="text-muted">
 										Contact Reception for more details.
@@ -192,16 +192,13 @@
 									</p>
 								<% } %>
 							</div>
-							
 
-						
+
+
 						</div>
 					</script>
 				</div>
 				<div class="container">
-					<div class="row">
-						<blockquote class="medium-size text-muted">We have used percentile system this year.Negative marking have not been taken into account this time.</blockquote>
-					</div>
 					<div class="col s12">
 						<h5 class="page-header">Scholarship Criteria</h5>
 						<table class="centered striped table-responsive">
@@ -211,15 +208,15 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>100% - 90%</td>
+									<td>100% - 70%</td>
 									<td>50%</td>
 								</tr>
 								<tr>
-									<td>89% - 70%</td>
+									<td>69% - 60%</td>
 									<td>25%</td>
 								</tr>
 								<tr>
-									<td>69% - 50%</td>
+									<td> less than 60%</td>
 									<td>10%</td>
 								</tr>
 							</tbody>
@@ -228,8 +225,8 @@
 				</div>
 			</section>
 
-			
-			      
+
+
 		</section>
 </body>
 </html>

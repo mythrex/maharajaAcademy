@@ -1,8 +1,8 @@
 const ejs = require('./js/ejs');
-const resultData = require('./scholarship_result.json');
+const resultData = require('./xi_scholarship_result.json');
 
 
-var passing_criteria = 50;
+var passing_criteria = 10;
 $(function () {
 	$resultTemplate = $('#result-template').html();
 	$resultContainer = $('#result-container');
@@ -31,6 +31,7 @@ function refreshDOM(){
 function appendElements(curIndex){
 	if(curIndex != null || curIndex != undefined){
 		var currentUser = resultData[curIndex];
+		console.log(currentUser);
 		currentUser["passingCriteria"] = passing_criteria;
 		var compiled = ejs.render($resultTemplate, currentUser);
 		$resultContainer.empty().append(compiled);
@@ -38,7 +39,7 @@ function appendElements(curIndex){
 	}else{
 		$resultContainer.empty().append('<p class="flow-text text-muted">Please click on search button to view your result.</p>');
 	}
-	
+
 }
 
 function selectCurrentUser(e) {
@@ -63,9 +64,9 @@ function makeChart(curUserObj) {
 	  data.addColumn('string', 'Marking');
 	  data.addColumn('number', 'Slices');
 	  data.addRows([
-	    ['Marks Gained', curUserObj["marks_gained"]],
-	    ['Negative Marking', curUserObj["marks_lost"]],
-	    ['Marks Unattempted', curUserObj["marks_unattempted"]],
+	    ['Correct', parseInt(curUserObj["correct"])],
+	    ['Wrong', parseInt(curUserObj["wrong"])],
+	    ['Unattempted', parseInt(curUserObj["unattempted"])],
 	  ]);
 
 	  // Set chart options
