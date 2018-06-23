@@ -19,7 +19,8 @@ $(function () {
 	$(".button-collapse").sideNav();
 	$('.carousel.carousel-slider').carousel({
 		fullWidth: true,
-		duration: 200
+		duration: 200,
+		indicators: true
 	});
 	$('.parallax').parallax();
 	$('.modal').modal();

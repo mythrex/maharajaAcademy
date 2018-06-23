@@ -2,12 +2,12 @@
 @import "modules/vars"
 @import './modules/palette'
 //mobile
-.carousel
+#review-carousel
 	min-height: 1620px
 
 	@media (min-width: 400px) and (max-width: 499px)
 		min-height: 1850px
-	
+
 	@media (min-width: 500px) and (max-width: 549px)
 		min-height: 1950px
 
@@ -19,13 +19,40 @@
 
 	@include desktop
 		min-height: 800px
-		
+
 	@include large-desktop
 		min-height: 800px
-	
-//tablet
 
-//
+#result-carousel
+	min-height: 800px
+
+	@include tablet
+		min-height: 800px
+
+	@include desktop
+		min-height: 500px
+
+	@include large-desktop
+		min-height: 500px
+
+	.carousel-item
+		display: flex !important
+		.carousel-item-text
+			display: block
+			width: 100%
+			margin: auto
+			h2
+				font-weight: bold
+				font-size: 2rem
+			p
+				font-size: 1.2rem
+		img
+			position: absolute
+			top: 0
+			left: 0
+			filter: blur(2px)
+			z-index: -2
+			width: 100%
 
 .card
 	.card-title

@@ -23,26 +23,29 @@
 	<!--Import jQuery before materialize.js-->
 	<% include partials/navbar.ejs %>
 
-  	<!--Top section-->
-  	<div class="section no-pad" id="index-banner">
-		<div class="parallax-container valign-wrapper">
-		    <div class="section" style="flex: auto">
-		      <div class="container">
-		        <br><br>
-		        <h1 class="header center white-text">No more Ratta!</h1>
-		        <div class="row center">
-		          <h5 class="header col s12 secondary-color">Come fall in love with science.</h5>
-		          <h5 class="header col s12 white-text">Registration Open for Class IX to Class XII.</h5>
-		        </div>
-		        <div class="row center">
-		        	<a href="javascript:void( window.open( 'https://form.jotform.me/80265143072449', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) )" class="btn btn-secondary" > Register Now! </a>				  
-				  				          
-		        </div>
-		        <br><br>
-		      </div>
-		    </div>
-		    <div class="parallax"><img id="top-section-img" src="images/wallpaper.jpg" alt="wallpaper" style="transform: translate3d(-50%, 169px, 0px); display: block; filter: blur(10px);"></div>
-		</div>
+	<div class="section no-pad">
+
+  <div class="carousel carousel-slider center" id="result-carousel">
+    <div class="carousel-fixed-item center">
+			<a class="btn waves-effect">Show results!</a>
+      <a class="btn background-primary waves-effect" href="javascript:void( window.open( 'https://form.jotform.me/80265143072449', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) )">Register Now!</a>
+    </div>
+    <div class="carousel-item light-blue white-text" href="#one!">
+      <div class="carousel-item-text">
+      	<h2>Work in Silence and let your success speak.</h2>
+	      <p class="white-text">80% of our students are 80+.</p>
+      </div>
+			<img src="https://lorempixel.com/250/250/nature/1">
+    </div>
+    <div class="carousel-item amber white-text" href="#two!">
+      <div class="carousel-item-text">
+      	<h2>100% NEET qualification rate.</h2>
+	      <p class="white-text">We have acheived a milestone. 100% of our students have qualified NEET.</p>
+      </div>
+			<img src="https://lorempixel.com/250/250/nature/1">
+    </div>
+  </div>
+
 	</div>
 
 	<div class="section">
@@ -103,7 +106,7 @@
 
 	<!--reviews-->
 	<% include partials/reviews.ejs %>
-	
+
 	<!--sections-->
 	<div class="container-fluid">
 		<div class="section">
@@ -136,7 +139,7 @@
 	    </div>
 	    <div class="parallax"><img src="" id="img-growth" alt="growth wallpaper" style="transform: translate3d(-50%, 377px, 0px); display: block; filter: blur(5px);"></div>
 	</div>
-	
+
 	<div class="container">
       <div class="row">
         <div class="col s12 m6">
@@ -151,6 +154,6 @@
     </div>
 
 	 <% include partials/footer.ejs %>
-	
+
 </body>
 </html>
